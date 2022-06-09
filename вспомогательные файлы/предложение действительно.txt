@@ -1,0 +1,16 @@
+<div style="color: #808080;font-family: Arial;line-height: 100%;text-align: left;"><span style="font-size: 11px;">
+Предложение действительно для компании "{company:name}" с ID - {company:id}.
+Вы получили это письмо, потому что зарегистрировались на Пульсе цен
+</span></div>
+
+
+
+сандсей
+<div style="color: #808080;font-family: Arial;line-height: 100%;text-align: left;"><span style="font-size: 11px;">
+Предложение действительно для компании "[% anketa.custom.q308 %]" с ID - [% anketa.custom.q640 %].
+Вы получили это письмо, потому что зарегистрировались на Пульсе цен
+																																										</span></div>
+
+
+<div style="color: #808080;font-family: Arial;line-height: 100%;text-align: left;">
+<span style="font-size: 11px;">Вы получили это письмо, т.к. зарегистрированы <br> на Пульсе цен</span></div>

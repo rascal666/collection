@@ -1,0 +1,290 @@
+$corporate_color: #028dd8;
+$main_text_color: #013a59;
+
+@mixin mainContent($size, $color) {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  font-size: $size;
+  font-family: "Open Sans", sans-serif;
+  color: $color;
+  // font-family: "Montserrat", sans-serif;
+}
+
+@mixin content($padd...) {
+  max-width: 1366px;
+  width: 90%;
+  margin: auto;
+  padding: $padd;
+}
+
+@mixin gridRow($gap, $row...) {
+  display: grid;
+  grid-template-rows: $row;
+}
+
+.wrapper-text p {
+  margin-bottom: revert;
+}
+
+//как использовать - main_content{@include mainContent}
+
+.main_content {
+  @include mainContent(16px, $main_text_color);
+}
+.content {
+  @include content(0);
+}
+
+.header_header {
+  background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/208275/content_group_104.png)
+    no-repeat right top;
+  background-size: 55%;
+  font-size: 20px;
+  .logo {
+    margin-top: 80px;
+  }
+  .header {
+    margin: 50px 0;
+    .nav {
+      font-size: 40px;
+      font-weight: 700;
+      padding-bottom: 30px;
+    }
+    .subtitle {
+      width: 436px;
+    }
+  }
+  .header__block {
+    @include gridRow(50px, 1fr 1.3fr 0.5fr);
+    background: #ffffff;
+    box-shadow: 0px 5px 50px rgba(174, 172, 242, 0.46);
+    padding: 40px 30px;
+  }
+
+  .heading_batton_line {
+    width: fit-content;
+    cursor: pointer;
+
+    .batton {
+      color: $corporate_color;
+      & a {
+        text-decoration: none;
+      }
+    }
+    .line {
+      margin-top: 10px;
+      background: #bce8ff;
+      width: 50%;
+      height: 3px;
+    }
+    &:hover > .line {
+      background: $corporate_color;
+      width: 100%;
+      transition: ease all 1s;
+    }
+  }
+
+  .img {
+    position: absolute;
+    top: 30px;
+    left: 75%;
+  }
+}
+
+// end
+
+.tatarstan {
+  @include content(150px 0);
+}
+
+.heading_window {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.subtitle_window {
+  font-size: 20px;
+  padding-bottom: 80px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.d-flex {
+  p {
+    margin-left: 15px;
+  }
+}
+
+.img_window {
+  width: 95%;
+}
+
+.heading_Button_white {
+  margin: 50px 0;
+}
+.text_red {
+  color: #b21313;
+}
+
+// end
+
+.rassia {
+  @include content(0px 0 150px 0);
+  .bg {
+    max-width: 123%;
+    width: 123%;
+    top: 22%;
+    z-index: 1;
+    height: 200px;
+    background: antiquewhite;
+    position: absolute;
+    left: -45%;
+    background: linear-gradient(
+      97.44deg,
+      #eca971 30.02%,
+      rgba(255, 255, 255, 0) 107.69%
+    );
+    border-radius: 10px;
+  }
+
+  .img_window {
+    width: 95%;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.whay {
+  background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/208316/content_polygon_2.png)
+    no-repeat right 18% / 60%;
+  @include content(150px 0);
+  .heading {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .subtitle {
+    margin-bottom: 25px;
+  }
+
+  .subtitle_list {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .line {
+    box-shadow: 0px 1px 5px #9db3ff;
+    height: 1px;
+    width: 500px;
+    margin: 30px 0;
+  }
+  .number {
+    display: flex;
+    justify-content: center;
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #9ddcff;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      color: white;
+      font-size: 16px;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.futer_main {
+  background: #9ddcff;
+  color: $main_text_color;
+}
+
+.agreement a {
+  color: $main_text_color;
+}
+
+.coll_me_futer {
+  border-bottom: 1px dashed $main_text_color;
+}
+
+@media (max-width: 1400px) {
+  .header_header {
+    font-size: 16px;
+  }
+  .subtitle_window {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header_header {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/208302/content_group_105_1.png)
+      no-repeat right top / 75%;
+    .img {
+      display: none;
+    }
+    .header__block {
+      margin-bottom: 30px;
+      grid-template-rows: 1fr;
+    }
+  }
+  .pT {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header_header {
+    font-size: 16px;
+
+    .logo {
+      margin-top: 60px;
+    }
+    .header {
+      margin: 50px 0;
+      .nav {
+        font-size: 26px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .tatarstan {
+    @include content(60px 0);
+  }
+
+  .rassia {
+    @include content(0px 0 60px 0);
+  }
+
+  .whay {
+    background: none;
+    @include content(60px 0);
+  }
+
+  .heading_window {
+    font-size: 26px;
+  }
+
+  .heading_Button_white {
+    margin: 30px 0;
+  }
+
+  .whay {
+    .heading {
+      font-size: 26px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .whay {
+    .number {
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,929 @@
+                .wrapper-text ul {
+                    margin: 15px 0 15px;
+                    padding-left: 0px;
+                }
+                
+                .wrapper-text p {
+                    margin-bottom: 0px;
+                }
+                
+                #content,
+                #searchline {
+                    margin-top: 0em;
+                    min-width: 0px;
+                }
+                
+                body {
+                    min-width: 0 !important;
+                    background-color: white;
+                }
+                
+                .wrapper-text p {
+                    margin-bottom: 0px;
+                }
+                
+                .wrapper-text {
+                    color: #5E7491;
+                    line-height: normal;
+                    overflow: hidden;
+                }
+                
+                .base-width {
+                    background-color: transparent;
+                    margin: 0;
+                    max-width: none;
+                    min-width: 0;
+                }
+                
+                .catalogue {
+                    padding: 0;
+                }
+                
+                .cms-page .col-middle {
+                    background: none;
+                    border: none;
+                    box-shadow: none;
+                    padding: 0 !important;
+                }
+                
+                .catalogue h1 {
+                    display: none;
+                }
+                
+                #content {
+                    margin-top: 0;
+                }
+                
+                .wrapper-text ul li {
+                    list-style-type: none !important;
+                }
+                
+                .wrapper-text table td {
+                    padding: 20px;
+                }
+                
+                .simple-breadcrumbs {
+                    display: none !important;
+                }
+                
+                * {
+                    padding: 0;
+                    margin: 0
+                }
+                /* --- */
+                
+                .imgAll_Rassia_mobil {
+                    display: none;
+                }
+                
+                .rascal_h2 {
+                    letter-spacing: 0.08em;
+                    font-weight: 600;
+                    font-size: 26px;
+                }
+                
+                .color5E7491 {
+                    color: #5E7491;
+                }
+                
+                .main {
+                    max-width: 1920px;
+                    margin: auto;
+                    letter-spacing: 0.02em;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    width: 100%;
+                }
+                
+                .content {
+                    max-width: 1200px;
+                    width: 100%;
+                    margin: auto;
+                }
+                
+                .bg_heading_main {
+                    background: linear-gradient(270deg, #FF5454 0%, #FE7B2E 100%);
+                }
+                
+                .heading_main {
+                    max-width: 1200px;
+                    margin: auto;
+                    width: 90%;
+                }
+                
+                .heading_heading {
+                    color: #FFFFFF;
+                    font-size: 40px;
+                    font-family: 'Russo One', sans-serif;
+                    padding-bottom: 40px;
+                    font-weight: 100;
+                }
+                
+                .no_mobil {
+                    padding-left: 0px;
+                    position: absolute;
+                    width: 1087px;
+                    right: 0vw;
+                    top: 100px;
+                }
+                
+                .heading_text2 {
+                    padding-bottom: 172px;
+                    width: 420px;
+                }
+                
+                .heading_all_taxt {
+                    max-width: 685px;
+                    width: 100%;
+                }
+                
+                .content_heading_batton {
+                    max-width: 1200px;
+                    margin: auto;
+                    width: 90%;
+                }
+                
+                .heading_batton {
+                    max-width: 845px;
+                }
+                
+                .logo {
+                    max-width: 1200px;
+                    margin: auto;
+                    padding-top: 120px;
+                    width: 90%;
+                }
+                
+                .serebro {
+                    background: rgba(255, 255, 255, 0.91);
+                    border-radius: 3px;
+                    padding: 20px 70px;
+                    color: #fe6345;
+                    font-weight: 100;
+                    text-align: center;
+                }
+                
+                .heading_batton a {
+                    text-decoration: none;
+                    color: #fe6345 !important;
+                }
+                
+                .platina {
+                    background: none;
+                    border-radius: 3px;
+                    padding: 20px 52px;
+                    border: 1px solid #FFFFFF !important;
+                    font-weight: 100;
+                    position: relative;
+                    z-index: 1;
+                    text-align: center;
+                }
+                
+                .heading_batton .white a {
+                    color: #FFFFFF !important;
+                }
+                
+                .heading_text2 {
+                    padding-bottom: 170px;
+                    width: 421px;
+                }
+                
+                .mobil {
+                    display: none;
+                }
+                
+                .mobil_smal {
+                    display: none;
+                }
+                
+                .fat {
+                    font-weight: bold;
+                }
+                
+                .allRassia_button1 {
+                    padding: 15px 40px;
+                    margin: 0px 0 0 0;
+                    width: fit-content;
+                    text-align: center;
+                    letter-spacing: 0.04em;
+                    color: #FF5D4B !important;
+                    white-space: normal !important;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    background: rgb(255, 255, 255);
+                    border: 1px solid #FF5D4B;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+                /* секция вся россия */
+                
+                .main_all_Rassia {
+                    background: #FFFFFF;
+                    box-shadow: 2px 4px 40px rgba(66, 75, 94, 0.3);
+                    border-radius: 10px;
+                    padding: 65px 0;
+                }
+                
+                .plashka_all_Rassia {
+                    background: linear-gradient(270deg, #FF5454 0%, #FE7B2E 100%);
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .imgAll_Rassia_stat {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    width: 570px;
+                }
+                
+                .position {
+                    position: relative;
+                    width: 517px;
+                }
+                
+                .blockText_plashka_all_Rassia {
+                    padding: 55px 0px 55px 55px;
+                }
+                
+                .imgAll_Rassia {
+                    position: relative;
+                }
+                
+                .imgAll_Rassia_mobil {
+                    display: none;
+                }
+                
+                .block_main_all_Rassia {
+                    width: 90%;
+                    margin: auto;
+                }
+                /* end */
+                /* Преимущества */
+                
+                .template_advantages_icon img {
+                    width: 50px;
+                }
+                
+                .template_advantages_block {
+                    background: none;
+                    grid-template-rows: 0.5fr 0.1fr;
+                }
+                
+                .template_advantages {
+                    grid-row-gap: 40px;
+                    padding: 0px;
+                }
+                
+                .heading_batton_allRassia a {
+                    text-decoration: none;
+                    color: #FFFFFF !important;
+                }
+                
+                .heading_batton_allRassia {
+                    text-decoration: none;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    justify-content: space-between;
+                    max-width: 670px;
+                    grid-gap: 30px;
+                }
+                
+                .heading_batton {
+                    text-decoration: none;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    justify-content: space-between;
+                    max-width: 880px;
+                    grid-gap: 30px;
+                    padding-bottom: 129px;
+                }
+                
+                .allRassia_button {
+                    border-radius: 3px;
+                    padding: 15px 40px;
+                    margin: 0px 0 0 0;
+                    width: fit-content;
+                    text-align: center;
+                    letter-spacing: 0.04em;
+                    color: #FFFFFF !important;
+                    white-space: normal !important;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    background: #FF5D4B;
+                    ;
+                    border: 1px solid #FF5D4B;
+                    ;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+                
+                .allRassia_button2 {
+                    border-radius: 3px;
+                    padding: 15px 40px;
+                    margin: 0px 0 0 0;
+                    width: fit-content;
+                    text-align: center;
+                    letter-spacing: 0.04em;
+                    color: #FFFFFF;
+                    white-space: normal !important;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    background: #FFFFFF;
+                    ;
+                    border: 1px solid #FF5D4B;
+                    border-radius: 5px;
+                    font-size: 16px;
+                }
+                
+                .allRassia_button2 a {
+                    color: #FF5D4B !important;
+                }
+                
+                .margin_bottom_60 {
+                    margin-bottom: 60px;
+                }
+                
+                .padding_bottom_60 {
+                    padding-bottom: 60px;
+                }
+                
+                .padding_bottom_40 {
+                    padding-bottom: 40px;
+                }
+                
+                .padding_bottom_30 {
+                    padding-bottom: 30px;
+                }
+                
+                .padding_bottom_120 {
+                    padding-bottom: 120px;
+                }
+                
+                .lene {
+                    width: 90%;
+                    height: 1px;
+                    background: #FF5D4B;
+                    margin: 60px auto;
+                }
+                
+                .heading_batton_allRassia_2 {
+                    text-decoration: none;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-content: space-between;
+                    max-width: 665px;
+                    grid-gap: 30px;
+                }
+                
+                .heading_batton_allRassia_2 a {
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+                /* end */
+                /* ------------region_complex--------------- */
+                
+                .red {
+                    color: lightcoral;
+                }
+                
+                .img_border_line_region_complex {
+                    width: 100%;
+                }
+                
+                .popapClose img {
+                    width: 20px;
+                }
+                
+                v .region_complex_claster {
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 15px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                    background: #0277BD;
+                    border-radius: 10px;
+                    min-height: 64px;
+                    margin: 68px 0px 40px 0px;
+                    display: grid;
+                    align-items: center;
+                    justify-items: center;
+                }
+                
+                .wrapper_region_complex {
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    grid-gap: 24px;
+                }
+                
+                .heading_region_complex {
+                    font-weight: bold;
+                    font-size: 16px;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                }
+                
+                .heading_region_complex a {
+                    color: #424B5E !important;
+                    text-decoration: none;
+                }
+                
+                .heading_region_complex a:hover {
+                    color: #0277bd !important;
+                }
+                
+                .subtitle_region_complex {
+                    font-size: 16px;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    padding-top: 5px;
+                }
+                
+                .outside_region_complex {
+                    color: #424B5E;
+                }
+                
+                .outside_region_complex:hover {
+                    color: #0277BD;
+                }
+                
+                .border_line_region_complex {
+                    margin-top: 20px;
+                }
+                
+                .imgPosition_heading_complex2 {
+                    display: none;
+                }
+                
+                .tere {
+                    color: wheat;
+                }
+                
+                .allRassia_button1 a {
+                    color: #FF5D4B !important;
+                }
+                /* ------------tolbar_complex-------------- */
+                
+                .wrapper_tolbar_complex {
+                    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/195300/content_frame_19.png) no-repeat 100% / cover;
+                    border-radius: 10px;
+                    margin-top: 85px;
+                    padding: 65px;
+                }
+                
+                .lineBotton_tolbar_complex {
+                    border-bottom: 1px solid #FFFFFF;
+                    width: 16%;
+                    padding-top: 10px;
+                }
+                
+                .attention_tolbar_complex {
+                    font-size: 16px;
+                    line-height: 16px;
+                    letter-spacing: 0.02em;
+                    color: rgb(255, 255, 255);
+                    padding-bottom: 22px;
+                }
+                
+                .heading_tolbar_complex {
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                    padding-bottom: 17px;
+                    padding-top: 50px;
+                }
+                
+                .coll_tolbar_complex {
+                    font-size: 16px;
+                    line-height: 18px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                }
+                
+                .span_tolbar_complex {
+                    font-size: 16px;
+                    line-height: 18px;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+                }
+                
+                .span_tolbar_complexMobil {
+                    display: none;
+                }
+                
+                .coll_tolbar_complex {
+                    display: grid;
+                    grid-template-columns: .1fr 9fr;
+                    grid-column-gap: 20px;
+                    padding-top: 10px;
+                }
+                
+                .collMe_futter_tolbar_complex {
+                    max-width: 300px;
+                    margin: 15px 0px 0px 0px;
+                    display: inline-block !important;
+                    font-size: 16px !important;
+                    font-weight: 600;
+                    font-style: normal !important;
+                    white-space: nowrap !important;
+                    color: #FFFFFF !important;
+                    border-radius: 3px !important;
+                    outline: 0 !important;
+                    cursor: pointer !important;
+                    -webkit-transition: background-color .2s, color .2s;
+                    transition: background-color .2s, color .2s;
+                    text-decoration: none !important;
+                    display: flex !important;
+                    align-items: center !important;
+                }
+                
+                .collMeborder_futter_tolbar_complex {
+                    border-bottom: 1px dashed #FFFFFF;
+                }
+                /* --------всплывающее окошко------------- */
+                
+                .blocks_region_complex {
+                    border: 1px dashed #000000;
+                    border-radius: 10px;
+                    padding: 15px 10px;
+                    cursor: pointer;
+                    display: grid;
+                    align-items: center;
+                }
+                
+                .blocks_region_complex:hover {
+                    border: 1px dashed #0277BD;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+                
+                .menu_region_complex {
+                    display: none;
+                    grid-column-gap: 45px;
+                    background: #FFFFFF;
+                    opacity: 0.95;
+                    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+                    border-radius: 10px;
+                    cursor: auto;
+                    line-height: 30px;
+                    color: #424B5E;
+                    letter-spacing: 0.02em;
+                    font-size: 14px;
+                    position: absolute;
+                    left: 50%;
+                    padding: 40px 20px 20px 20px;
+                    transform: translate(-50%, 0%);
+                }
+                
+                .popapClose {
+                    position: absolute;
+                    width: 25px;
+                    top: 20px;
+                    display: flex;
+                    justify-self: end;
+                    right: 30px;
+                }
+                
+                .subtitle_region_complex a {
+                    text-decoration: none;
+                    color: #424b5e;
+                }
+                
+                .subtitle_region_complex a:hover {
+                    text-decoration: none;
+                    color: #0277bd;
+                }
+                
+                .menu_region_complexA .menu_region_complex {
+                    grid-template-columns: 1fr 1fr 1fr;
+                    right: -5%;
+                }
+                
+                .menu_region_complexMsc .menu_region_complex {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+                
+                .menu_region_complexYR_Sib .menu_region_complex {
+                    grid-template-columns: 1fr 1fr;
+                }
+                
+                .menu_region_complexRos .menu_region_complex {
+                    grid-template-columns: 1fr 1fr;
+                }
+                
+                .menu_region_complexKras .menu_region_complex {
+                    grid-template-columns: 1fr 1fr;
+                }
+                
+                .menu_region_complexKrm .menu_region_complex {
+                    grid-template-columns: 1fr 1fr;
+                }
+                
+                .menu_region_complexPov .menu_region_complex {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+                
+                .menu_region_complexUR .menu_region_complex {
+                    grid-template-columns: 1fr 1fr;
+                }
+                
+                .menu_region_complex_odin .menu_region_complex {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    align-items: center;
+                    z-index: 1;
+                }
+                
+                .regionClaster {
+                    background: linear-gradient(270deg, #FF5454 0%, #FE7B2E 100%);
+                    border-radius: 5px;
+                    padding: 25px 0;
+                    display: grid;
+                    justify-content: center;
+                }
+                
+                .regionClaster text {
+                    text-align: center;
+                }
+                /* end */
+                
+                ._customer-contacts-links a {
+                    font-size: 12px;
+                    color: #ffffff !important;
+                    text-decoration: none;
+                    display: block;
+                    opacity: 0.5;
+                }
+                
+                @media(min-width:1920px) {
+                    .no_mobil {
+                        width: 1008px;
+                        right: 0px;
+                        top: 140px;
+                    }
+                    .imgAll_Rassia_stat {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        width: 566Px;
+                    }
+                }
+                
+                @media(max-width:1880px) {
+                    .no_mobil {
+                        width: 54vw;
+                        ;
+                    }
+                    .heading_heading {
+                        font-size: 2.1vw;
+                        line-height: 3.1vw;
+                    }
+                }
+                
+                @media (max-width: 1540px) {
+                    .heading_img_inside {
+                        width: inherit;
+                    }
+                    .no_mobil {
+                        width: 59vw;
+                        top: 128px;
+                    }
+                    .heading_tolbar_complex {
+                        font-size: 16px;
+                        padding-top: 40px;
+                    }
+                }
+                
+                @media (max-width: 1366px) {
+                    .heading_text2 {
+                        padding-bottom: 150px;
+                    }
+                    .no_mobil {
+                        top: 170px;
+                    }
+                }
+                
+                @media (max-width: 1200px) {
+                    .heading_heading {
+                        margin-top: 0px;
+                    }
+                    /* .no_mobil{
+                        position: inherit;
+                    } */
+                    .mobil {
+                        display: block;
+                        position: relative;
+                        top: -72px;
+                        width: 90vw;
+                    }
+                    .no_mobil {
+                        display: none;
+                    }
+                    .heading_heading {
+                        font-size: 30px;
+                        line-height: 45px;
+                        margin-top: -50px;
+                    }
+                    .heading_main {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column-reverse;
+                    }
+                    .logo {
+                        padding-top: 65px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .heading_text2 {
+                        padding-bottom: 60px;
+                    }
+                    .heading_batton {
+                        padding-bottom: 95px;
+                    }
+                }
+                
+                @media (max-width: 1080px) {
+                    .no_mobil {
+                        position: relative;
+                        top: -25px;
+                    }
+                    .no_mobil {
+                        display: none;
+                    }
+                    .heading_text2 {
+                        padding-bottom: 60px;
+                    }
+                    .heading_text2 {
+                        width: 100%;
+                    }
+                }
+                
+                @media (max-width: 1100px) {
+                    .imgAll_Rassia_stat {
+                        display: none;
+                    }
+                    .wrapper_region_complex {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-gap: 40px;
+                    }
+                }
+                
+                @media (max-width: 1000px) {
+                    .plashka_all_Rassia {}
+                }
+                
+                @media (max-width: 800px) {
+                    .position {
+                        position: relative;
+                        width: 100%;
+                    }
+                    .heading_batton {
+                        grid-template-columns: 1fr;
+                    }
+                }
+                
+                @media (max-width:770px) {
+                    .wrapper_region_complex {
+                        display: grid;
+                        grid-template-columns: repeat(1, 1fr);
+                        grid-gap: 24px;
+                    }
+                    .menu_region_complexPov .menu_region_complex {
+                        grid-template-columns: 1fr 1fr;
+                    }
+                    .menu_region_complexMsc .menu_region_complex {
+                        grid-template-columns: 1fr 1fr;
+                    }
+                    .menu_region_complexYR_Sib .menu_region_complex {
+                        grid-template-columns: 1fr;
+                    }
+                    .menu_region_complex_odin .menu_region_complex {
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }
+                
+                @media (max-width: 600px) {
+                    .heading_heading {
+                        font-size: 20px;
+                        line-height: 35px;
+                    }
+                    .text {
+                        font-size: 16px;
+                    }
+                    .blockText_plashka_all_Rassia {
+                        padding: 27px 27px 30px 27px;
+                    }
+                    .heading_batton_allRassia {
+                        grid-template-columns: 1fr;
+                    }
+                    .allRassia_button {
+                        width: auto;
+                    }
+                    .allRassia_button2 {
+                        width: auto;
+                    }
+                    .template_advantages_block {
+                        text-align: center;
+                        display: grid;
+                        grid-row-gap: 30px;
+                    }
+                    .wrapper_tolbar_complex {
+                        background: linear-gradient(270deg, #FF5454 0%, #FE7B2E 100%);
+                        border-radius: 10px;
+                        margin-top: 35px;
+                        padding: 38px 21px 38px 20px;
+                    }
+                    .attention_tolbar_complex {
+                        line-height: 21px;
+                        padding-bottom: 7px;
+                    }
+                    .coll_tolbar_complex {
+                        padding-top: 20px;
+                    }
+                    .span_tolbar_complex {
+                        display: none;
+                    }
+                    .span_tolbar_complexMobil {
+                        display: block;
+                        font-size: 16px;
+                        line-height: 18px;
+                        letter-spacing: 0em;
+                        color: #FFFFFF;
+                        padding-top: 11px;
+                    }
+                    .collMe_futter_tolbar_complex {
+                        margin: 41px 0px 0px 0px;
+                        letter-spacing: 0.05em;
+                    }
+                }
+                
+                @media (max-width: 500px) {
+                    .heading_heading {
+                        font-size: 16px;
+                        line-height: 35px;
+                        letter-spacing: 0px;
+                    }
+                    .mobil_smal {
+                        display: block;
+                        position: relative;
+                        right: 24px;
+                        width: 66vw;
+                    }
+                    .mobil {
+                        display: none;
+                    }
+                    .heading_heading {
+                        margin-top: 0px;
+                        padding-bottom: 30px;
+                        padding-top: 50px;
+                    }
+                    .logo {
+                        padding-top: 30px;
+                    }
+                    .heading_text2 {
+                        padding-bottom: 50px;
+                    }
+                    .padding_bottom_40 {
+                        padding-bottom: 30px;
+                    }
+                    .serebro {
+                        padding: 20px 20px;
+                        font-size: 16px;
+                    }
+                    .platina {
+                        padding: 20px 20px;
+                        font-size: 16px;
+                    }
+                    .imgAll_Rassia_stat {
+                        display: none;
+                    }
+                    .imgAll_Rassia_mobil {
+                        display: block;
+                        position: absolute;
+                        width: 100%;
+                    }
+                    .plashka_all_Rassia {
+                        flex-direction: column-reverse;
+                    }
+                    .rascal_h2 {
+                        padding-top: 70%;
+                        font-size: 16px;
+                    }
+                    .margin_bottom_60 {
+                        margin-bottom: 50px;
+                    }
+                    .padding_bottom_60 {
+                        padding-bottom: 50px;
+                    }
+                    .heading_batton {
+                        padding-bottom: 60px;
+                    }
+                }

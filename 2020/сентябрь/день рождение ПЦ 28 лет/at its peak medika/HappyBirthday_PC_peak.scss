@@ -1,0 +1,555 @@
+                                    $corporate_color:#028DD8;
+                                    $main_text_color:#013A59;
+                                    .main {
+                                        max-width: 1920px;
+                                        width: 100%;
+                                        margin: auto;
+                                        font-family: 'Montserrat', sans-serif;
+                                        font-size: 16px;
+                                        color: $main_text_color !important;
+                                        position: relative;
+                                        .bg_blue {
+                                            background: #F2FBFF;
+                                        }
+                                        .text {
+                                            letter-spacing: 0.04em;
+                                        }
+                                        .content {
+                                            max-width: 1320px;
+                                            width: 90%;
+                                            margin: auto;
+                                            padding-top: 130px;
+                                        }
+                                        .heading_Button {
+                                            padding: 15px 80px;
+                                            border-radius: 8px;
+                                            height: fit-content;
+                                        }
+                                        .heading_Button_white {
+                                            padding: 20px 20px;
+                                            border-radius: 8px;
+                                        }
+                                        .width {
+                                            max-width: 650px;
+                                            width: 100%;
+                                        }
+                                    }
+                                    
+                                    .coll_me_futer {
+                                        border-bottom: 1px dashed #013a59;
+                                        width: 112px;
+                                    }
+                                    
+                                    .header {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        padding-bottom: 150px;
+                                        .button_col {
+                                            display: grid;
+                                            grid-template-columns: 1fr 1.5fr;
+                                            grid-gap: 30px;
+                                            margin-top: 60px;
+                                        }
+                                        .heading_col_text {
+                                            max-width: 750px;
+                                            width: 100%;
+                                            a {
+                                                text-decoration: none;
+                                                color: $main_text_color;
+                                            }
+                                            .colorRed {
+                                                color: #FF6E61;
+                                            }
+                                        }
+                                        .heading_header {
+                                            font-size: 46px;
+                                            letter-spacing: 0.04em;
+                                            line-height: 60px;
+                                            padding-bottom: 40px;
+                                            font-weight: bold;
+                                        }
+                                        .logo {
+                                            padding-bottom: 40px;
+                                        }
+                                        .text {
+                                            padding-top: 20px;
+                                        }
+                                        .heading_Button {
+                                            filter: drop-shadow(0px 10px 20px rgba(2, 141, 216, 0.25));
+                                            padding: 20px 20px;
+                                        }
+                                        .heading_Button_white {
+                                            border: 2px solid #028DD8;
+                                            font-weight: 500;
+                                        }
+                                        .heading_col_img {
+                                            position: absolute;
+                                            right: 100px;
+                                            top: 20px;
+                                        }
+                                    }
+                                    
+                                    .conteiner {
+                                        max-width: 1320px;
+                                        width: 90%;
+                                        padding: 150px 0 150px 0;
+                                        margin: auto;
+                                    }
+                                    
+                                    .H2 {
+                                        font-size: 24px;
+                                        width: fit-content;
+                                        display: grid;
+                                        justify-items: right;
+                                        .line {
+                                            border-bottom: 2px solid $corporate_color;
+                                            width: 70%;
+                                            padding-top: 5px;
+                                        }
+                                    }
+                                    
+                                    .bohus {
+                                        .heading {
+                                            font-weight: 600;
+                                            font-size: 36px;
+                                            line-height: 44px;
+                                            padding: 0px 0 40px 0;
+                                        }
+                                        .cards {
+                                            display: grid;
+                                            grid-template-columns: repeat(3, 1fr);
+                                            grid-column-gap: 30px;
+                                            align-items: center;
+                                            padding-top: 60px;
+                                            .wrapper {
+                                                background: #FFFFFF;
+                                                border: 1px solid #F2F4F7;
+                                                box-sizing: border-box;
+                                                box-shadow: 0px 4px 4px rgba(68, 118, 145, 0.16);
+                                                border-radius: 6px;
+                                                position: relative;
+                                                height: fit-content;
+                                                ul {
+                                                    padding-inline-start: revert;
+                                                    margin-block-start: 5px;
+                                                    li {
+                                                        padding-bottom: 20px;
+                                                        padding-left: 10px;
+                                                        font-size: 16px;
+                                                    }
+                                                }
+                                                .nav {
+                                                    padding-top: 14.5vw;
+                                                }
+                                                .line {
+                                                    background: #028DD8;
+                                                    width: 76px;
+                                                    height: 3px !important;
+                                                    margin-bottom: 30px;
+                                                    margin-top: 10px;
+                                                }
+                                                .heading_card {
+                                                    color: $corporate_color;
+                                                    font-weight: 500;
+                                                    font-size: 18px;
+                                                    line-height: 28px;
+                                                    padding-bottom: 30px;
+                                                }
+                                                .heading_card_sale {
+                                                    color: $corporate_color;
+                                                    font-weight: 500;
+                                                    font-size: 18px;
+                                                    line-height: 28px;
+                                                    padding-bottom: 30px;
+                                                }
+                                                .img_showcase {
+                                                    padding: 20px 0;
+                                                    margin: 0px 0px 45px 0;
+                                                    background: rgba(246, 245, 243, 0.5);
+                                                    width: 100%;
+                                                    position: absolute;
+                                                    left: 0;
+                                                    display: grid;
+                                                    justify-content: center;
+                                                    img {
+                                                        max-width: 19vw;
+                                                    }
+                                                }
+                                                .text {
+                                                    padding-bottom: 15px;
+                                                }
+                                                .textSubt {
+                                                    padding-bottom: 25px;
+                                                }
+                                                .increase {
+                                                    font-size: 30px;
+                                                }
+                                                .heading_Button {
+                                                    width: auto;
+                                                    margin-bottom: 30px;
+                                                    padding: 20px 10px;
+                                                    filter: drop-shadow(0px 10px 20px rgba(2, 141, 216, 0.25));
+                                                    font-weight: 600;
+                                                }
+                                                .img {
+                                                    display: grid;
+                                                    img {
+                                                        width: 100%;
+                                                    }
+                                                }
+                                                .block {
+                                                    padding: 70px 45px 45px 45px;
+                                                }
+                                            }
+                                            .wrapper_yellow {
+                                                border-top: 10px solid rgba(255, 197, 76, 0.8);
+                                                .heading_Button {
+                                                    margin-top: 45px;
+                                                }
+                                            }
+                                            .wrapper_red {
+                                                border-top: 10px solid rgba(255, 110, 97, 0.8);
+                                            }
+                                            .wrapper_fiol {
+                                                border-top: 10px solid rgba(158, 123, 180, 0.8);
+                                            }
+                                        }
+                                        .suttitle {
+                                            padding-top: 80px;
+                                            font-size: 26px;
+                                            line-height: 32px;
+                                            padding-bottom: 60px;
+                                        }
+                                    }
+                                    
+                                    .template_advantages {
+                                        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                                        .template_advantages_block {
+                                            display: block;
+                                            width: 93%;
+                                            .template_advantages_icon {
+                                                padding-bottom: 30px;
+                                            }
+                                            .heading_card {
+                                                padding-bottom: 25px;
+                                            }
+                                        }
+                                        .heading_card {
+                                            color: #028DD8;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 28px;
+                                        }
+                                    }
+                                    
+                                    .final {
+                                        max-width: 1320px;
+                                        width: 90%;
+                                        margin: auto;
+                                        margin-bottom: 150px;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: flex-end;
+                                        margin-top: 150px;
+                                        .block_text {
+                                            max-width: 840px;
+                                            width: 100%;
+                                            .text {
+                                                padding-bottom: 20px;
+                                                font-size: 26px;
+                                            }
+                                            .heading {
+                                                font-weight: 600;
+                                                font-size: 36px;
+                                                line-height: 44px;
+                                                padding-bottom: 40px;
+                                            }
+                                        }
+                                        .heading_Button_white {
+                                            margin-top: 40px;
+                                        }
+                                        .block_img img {
+                                            width: 350px;
+                                        }
+                                    }
+                                    
+                                    .appeal {
+                                        .appeal_col {
+                                            margin-bottom: 50px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            padding: 50px 0 150px 0;
+                                            p {
+                                                font-size: 18px;
+                                                line-height: 40px;
+                                                max-width: 800px;
+                                                width: 100%;
+                                            }
+                                            .heading_Button_white {
+                                                border: 2px solid #0492DE;
+                                                font-weight: 500;
+                                                padding: 20px 40px;
+                                            }
+                                        }
+                                    }
+                                    
+                                    .futer_wrapper {
+                                        max-width: 1366px;
+                                        width: 90%;
+                                        margin: auto;
+                                        display: grid;
+                                        grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+                                        padding: 120px 0;
+                                        grid-row-gap: 25px;
+                                        align-items: center;
+                                    }
+                                    
+                                    .bohus .cards {
+                                        .wrapper {
+                                            .nav {
+                                                padding-top: 210px;
+                                            }
+                                            .img_showcase {
+                                                img {
+                                                    max-width: 250px;
+                                                }
+                                            }
+                                        }
+                                        .wrapper_yellow {
+                                            .heading_Button {
+                                                margin-top: 20px;
+                                            }
+                                        }
+                                        .wrapper_red {
+                                            .heading_Button {
+                                                margin-top: 20px;
+                                            }
+                                        }
+                                        .wrapper_fiol {
+                                            .heading_Button {
+                                                margin-top: 20px;
+                                            }
+                                        }
+                                    }
+                                    
+                                    .futer_main {
+                                        background: #F2FBFF;
+                                        color: $main_text_color;
+                                        .numder_futer {
+                                            a {
+                                                color: $main_text_color;
+                                            }
+                                        }
+                                        .line {
+                                            width: 100px;
+                                            height: 3px;
+                                            background: #013A59;
+                                            margin-bottom: 40px;
+                                        }
+                                    }
+                                    
+                                    .agreement a {
+                                        color: $main_text_color;
+                                    }
+                                    
+                                    @media(min-width:1370px) {
+                                        .bohus {
+                                            .cards {
+                                                .wrapper {
+                                                    .nav {
+                                                        padding-top: 230px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                    @media(max-width:1500px) {
+                                        .header {
+                                            .heading_col_text {
+                                                .heading_header {
+                                                    font-size: 3.3vw;
+                                                    line-height: 5vw;
+                                                    .text {
+                                                        max-width: 500px;
+                                                        width: 100%;
+                                                    }
+                                                }
+                                                .heading_col_img {
+                                                    img {
+                                                        width: 33vw;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        @media(max-width:1370px) {
+                                            .header {
+                                                .heading_col_img {
+                                                    img {
+                                                        width: 34vw;
+                                                        padding-left: 70px;
+                                                    }
+                                                }
+                                                .heading_header {
+                                                    font-size: 3vw;
+                                                    line-height: 4.5vw;
+                                                }
+                                            }
+                                        }
+                                        @media(max-width:1090px) {
+                                            .conteiner {
+                                                padding: 60px 0;
+                                            }
+                                            .header {
+                                                flex-direction: column-reverse;
+                                                padding-bottom: 60px;
+                                                .heading_col_img img {
+                                                    width: 250px;
+                                                    padding-left: 0px;
+                                                }
+                                                .button_col {
+                                                    grid-template-columns: 1fr;
+                                                    .heading_Button {
+                                                        padding: 20px 20px;
+                                                    }
+                                                }
+                                                .heading_col_img {
+                                                    position: inherit;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    padding-bottom: 40px;
+                                                    width: 100%;
+                                                    padding-left: 0px;
+                                                }
+                                                .heading_header {
+                                                    font-size: 36px;
+                                                    line-height: 50px;
+                                                }
+                                            }
+                                            .main {
+                                                .content {
+                                                    padding-top: 50px;
+                                                }
+                                            }
+                                            .bohus {
+                                                .suttitle {
+                                                    font-size: 18px;
+                                                    line-height: 27px;
+                                                    padding-bottom: 20px;
+                                                    padding-top: 40px;
+                                                }
+                                                .heading {
+                                                    font-size: 26px;
+                                                    line-height: 35px;
+                                                }
+                                                .cards {
+                                                    grid-template-columns: 1fr;
+                                                    grid-row-gap: 25px;
+                                                    .wrapper {
+                                                        .block {
+                                                            padding: 40px 20px 0px 20px;
+                                                        }
+                                                    }
+                                                    .wrapper_yellow {
+                                                        img {
+                                                            padding-top: 20px;
+                                                        }
+                                                    }
+                                                    .wrapper_red {
+                                                        img {
+                                                            padding-top: 20px;
+                                                        }
+                                                    }
+                                                    .wrapper_fiol {
+                                                        img {
+                                                            padding-top: 20px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .additional {
+                                                .cards {
+                                                    grid-template-columns: 1fr;
+                                                    grid-row-gap: 25px;
+                                                    padding-top: 40px;
+                                                    .wrapper {
+                                                        .block {
+                                                            padding: 40px 20px 0px 20px;
+                                                        }
+                                                    }
+                                                }
+                                                .subtitle {
+                                                    padding-top: 40px;
+                                                }
+                                            }
+                                            .final {
+                                                flex-direction: column;
+                                                margin-bottom: 60px;
+                                                margin-top: 40px;
+                                                .block_img {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    padding-top: 40px;
+                                                }
+                                                .block_img img {
+                                                    width: 200px;
+                                                }
+                                                .heading_Button {
+                                                    margin-top: 20px;
+                                                }
+                                                .block_text {
+                                                    max-width: 1366px;
+                                                    width: 100%;
+                                                    .heading {
+                                                        font-size: 26px;
+                                                        line-height: 35px;
+                                                    }
+                                                    .text {
+                                                        font-size: 18px;
+                                                    }
+                                                }
+                                            }
+                                            .appeal {
+                                                .appeal_col {
+                                                    margin-bottom: 20px;
+                                                    padding: 40px 0;
+                                                    flex-direction: column;
+                                                    align-items: baseline;
+                                                    p {
+                                                        font-size: 18px;
+                                                        line-height: 32px;
+                                                        margin-bottom: 40px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        @media(max-width:500px) {
+                                            .main {
+                                                .heading_Button {
+                                                    padding: 20px 20px;
+                                                }
+                                            }
+                                            .header {
+                                                .heading_header {
+                                                    font-size: 24px;
+                                                    line-height: 38px;
+                                                    padding-bottom: 25px;
+                                                }
+                                            }
+                                            .futer_wrapper {
+                                                grid-template-columns: 1fr;
+                                            }
+                                            .appeal {
+                                                .heading_Button_white {
+                                                    padding: 20px 20px;
+                                                }
+                                            }
+                                        }
+                                        .massenger_futer {
+                                            display: flex;
+                                            width: 205px;
+                                            align-items: baseline;
+                                        }
+                                    }

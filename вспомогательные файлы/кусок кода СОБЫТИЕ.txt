@@ -1,0 +1,25 @@
+{crm_analytics:show_page(network_actions, Поторгуемся - 08.10.19)}
+
+
+
+
+
+
+Все события на текущий момент. Новые еще не завели.      
+load_goods_xls: 'Загружал товары xls'      
+load_goods_yml: 'Загружал товары yml'      
+load_goods_1c: 'Загружал товары 1C'      
+view_price: 'Просмотрел страницу прайс листа'      
+new_reg_company: 'Новый регистрант'      
+view_banners_price_list: 'Просмотрел прайс лист баннеров'      
+network_actions: 'Переход с рассылки'      
+potential: 'КЦ потенциальный'      
+active: 'КЦ активный'      
+special_offer: 'Спецпредложение'      
+want_a_website: 'Хочу сайт'      
+hot_lead: 'Горячий лид'      
+cold_lead: 'Холодный лид'      
+activity_sk: 'Активность на СК'      
+additional_service: 'Дополнительная услуга'      
+perfomance_examples: 'Примеры эффективности'      
+Хочу заказы want_orders

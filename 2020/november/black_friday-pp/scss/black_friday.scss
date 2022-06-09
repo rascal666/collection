@@ -1,0 +1,485 @@
+$corporate_color: #028dd8;
+$text: #ffffff;
+$text-grey: #5e7491;
+
+@mixin mainContent($size, $color) {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  font-size: $size;
+  font-family: "Open Sans", sans-serif;
+  color: $color;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+  // font-family: "Montserrat", sans-serif;
+}
+
+@mixin content($padd...) {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  padding: $padd;
+}
+@mixin d-flex($items) {
+  display: flex;
+  justify-content: space-between;
+  align-items: $items;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+}
+.modal-p {
+  display: none;
+}
+
+.modal-close:hover {
+  cursor: pointer;
+}
+
+.activ {
+  display: block;
+}
+
+.modal-p {
+  background: #171614c9;
+  position: absolute;
+  z-index: 999;
+}
+.modal-close {
+  right: 15px;
+  top: 5px;
+  position: absolute;
+}
+
+.pop {
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  color: rgb(33, 32, 32);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.more:hover {
+  cursor: pointer;
+}
+.feedback-modil {
+  display: none;
+}
+
+.modal-wrapper {
+  .modal-title {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+  .modal-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .noincrease {
+    font-size: 20px;
+  }
+  .pbottom {
+    padding-bottom: 20px;
+  }
+}
+
+.main-content {
+  @include mainContent(16px, $text);
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/219064/content_ellipse_22.png")
+      no-repeat 0% 0%,
+    url("https://www.pulscen.ru/system/ckeditor_assets/pictures/219085/content_chernaya_pyatnitsa.png")
+      no-repeat 100% 35% / 65% fixed,
+    url("https://www.pulscen.ru/system/ckeditor_assets/pictures/219086/content_img-0178.png");
+}
+
+.section-content {
+  max-width: 1500px;
+  width: 92%;
+  margin: auto;
+  padding: 40px 0;
+}
+.heading_Button {
+  width: auto;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 20px;
+  letter-spacing: 0em;
+}
+
+.toolbar1 {
+  @include d-flex(center);
+  .toolbar1 {
+    .logo {
+      width: 182px;
+    }
+  }
+  .feedback {
+    display: flex;
+  }
+  .item {
+    @include d-flex(center);
+    img {
+      margin-right: 20px;
+    }
+  }
+  .item_padding {
+    padding: 0 40px;
+  }
+}
+.heading_Button_white {
+  padding: 10px 20px;
+  background: #f0f8ff00;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+}
+.heading_Button_white  a{
+  color: #ffffff !important;
+}
+
+.header {
+  padding-top: 70px;
+  padding-bottom: 80px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  .text {
+    font-size: 66px;
+    letter-spacing: 0.04em;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    @include d-flex(flex-end);
+    max-width: 1067px;
+    width: 100%;
+    position: relative;
+    .text__shine {
+      color: #aad7ff30;
+      background: url(https://e7.pngegg.com/pngimages/704/774/png-clipart-diamond-silver-sequins-glitter-material.png)
+        repeat-x 100% 100% / contain;
+      -webkit-background-clip: text;
+      animation: fire 3s linear infinite;
+    }
+    .text__circuit {
+      color: #cae2f700;
+      -webkit-text-stroke: 1px rgb(255, 255, 255);
+      display: block;
+    }
+  }
+  .text::after {
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid #2196f3;
+    width: 54%;
+    bottom: 18px;
+    right: 0;
+  }
+  .sale {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #2196f3;
+    padding-bottom: 15px;
+    .sale__three {
+      font-size: 109px;
+    }
+    .percent {
+      font-size: 50px;
+    }
+  }
+  .note {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-bottom: 36px;
+    letter-spacing: 0.04em;
+    min-width: 318px;
+  }
+}
+a{
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.package {
+  display: grid;
+  grid-column-gap: 8%;
+  grid-template-columns: 1fr 1fr 1fr;
+  .item {
+    display: grid;
+    grid-template-rows: auto 1fr 0.5fr 0.5fr 0.5fr;
+    .item__subtitle {
+      font-size: 26px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      text-transform: uppercase;
+    }
+    .text {
+    }
+    .item__decrease {
+      font-size: 20px;
+    }
+  }
+  .more {
+    @include d-flex(center);
+    justify-content: start;
+    .more__text {
+      margin-left: 20px;
+      opacity: 0.5;
+    }
+  }
+}
+.section-note {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 60px;
+}
+
+.section-noteP{
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+@keyframes fire {
+  0% {
+    background-position: left 0 bottom 10px;
+  }
+
+  50% {
+    background-position: left 10% bottom 5px;
+  }
+  100% {
+    background-position: left 0% bottom 10px;
+  }
+}
+
+@media (max-width: 1680px) {
+  .heading_Button {
+    font-size: 16px;
+  }
+  .header {
+    .text {
+      font-size: 54px;
+    }
+    .sale {
+      .sale__three {
+        font-size: 99px;
+      }
+      .percent {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .section-content {
+    padding: 20px 0;
+  }
+  .heading_Button {
+    margin-top: 30px;
+  }
+
+  .toolbar1 {
+    .logo {
+      width: 10%;
+    }
+  }
+
+  .header {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    .sale {
+      .sale__three {
+        font-size: 70px;
+      }
+      .percent {
+        font-size: 30px;
+      }
+    }
+    .text {
+      font-size: 44px;
+    }
+  }
+  .package {
+    grid-column-gap: 4%;
+    .item__img {
+      width: 40px;
+      height: 40px;
+    }
+    .item {
+      grid-template-rows: auto 1fr 0.8fr 0.5fr 1fr;
+      .item__subtitle {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+      }
+    }
+  }
+  .section-note {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    .text::after {
+      content: "";
+      position: absolute;
+      border-bottom: 4px solid #2196f3;
+      width: 42%;
+      bottom: 18px;
+      right: 0;
+    }
+  }
+  .package {
+    .item {
+      grid-template-rows: auto 1.1fr 0.8fr 0.5fr 1fr;
+      .text {
+        font-size: 12px;
+        padding-top: 15px;
+      }
+      .more {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .heading_Button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .heading_Button_white {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+  .main-content {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219064/content_ellipse_22.png)
+        no-repeat 0% 0%,
+      url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219219/content_rectangle_7.png)
+        no-repeat 100% 50%/44px,
+      url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219086/content_img-0178.png);
+  }
+
+  .heading_Button {
+    max-width: 427px;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    .text {
+      flex-direction: column;
+      font-size: 10vw;
+      align-items: flex-start;
+    }
+    .note {
+      margin-left: 0px;
+    }
+    .text::after {
+      content: "";
+      display: none;
+    }
+    .sale {
+      padding-top: 10px;
+      .sale__three {
+        font-size: 10vw;
+      }
+    }
+    .note {
+      min-width: inherit;
+    }
+  }
+  .toolbar1 {
+    .logo {
+      width: 120px;
+    }
+    .desc {
+      display: none;
+    }
+  }
+  .package {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+    .item {
+      grid-template-rows: 1fr;
+      .text {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .more {
+        font-size: 14px;
+      }
+    }
+  }
+  .pop {
+    padding: 20px;
+    max-height: 300px;
+    overflow: scroll;
+    width: 80%;
+  }
+  .modal-wrapper {
+    .modal-title {
+      font-size: 18px;
+      padding-bottom: 20px;
+    }
+    .noincrease {
+      font-size: 16px;
+    }
+    .text {
+      font-size: 14px;
+    }
+    .pbottom {
+      font-size: 15px;
+    }
+  }
+  .section-note {
+    margin-bottom: 40px;
+  }
+  .feedback-modil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .item {
+      display: flex;
+      align-items: center;
+      
+      img {
+        margin-right: 20px;
+        height: fit-content;
+      }
+    }
+    .item_padding{
+      margin-top: 20px;
+    }
+  }
+  .section-content {
+    padding: 20px 0 80px;
+  }
+
+  .section-noteP{
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width: 660px) {
+  .main-content {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219064/content_ellipse_22.png) no-repeat 0% 0%,url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219086/content_img-0178.png);
+}
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}

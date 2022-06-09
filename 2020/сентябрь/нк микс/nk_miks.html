@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Месяц подарков на Пульсе цен</title>
+
+    <!-- мой шаблон -->
+    <link
+      rel="stylesheet"
+      href="https://www.pulscen.ru/system/ckeditor_assets/attachments/204266/template.css"
+    />
+    <!-- futer -->
+    <link
+      rel="stylesheet"
+      href="https://www.pulscen.ru/system/ckeditor_assets/attachments/204245/futer.css"
+    />
+    <!-- шрифт -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!-- botstrap -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- обнуление -->
+    <link
+      rel="stylesheet"
+      href="https://www.pulscen.ru/system/ckeditor_assets/attachments/204203/zeroing.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.pulscen.ru/system/ckeditor_assets/attachments/210248/begin.css"
+    />
+    <!-- <link rel="stylesheet" href="begin.css" /> -->
+  </head>
+
+  <body>
+    <div class="main_content">
+      <div class="content">
+        <header class="one_window">
+          <a target="_blank" href="https://pulscen.ru/">
+            <img
+              src="https://www.pulscen.ru/system/ckeditor_assets/pictures/183694/content_content_logo-pc_2.png"
+              alt=""
+              class="logo"
+            />
+          </a>
+          <div class="row wrapRew">
+            <div class="col-xl-9">
+              <p class="heading">
+                Получайте больше заказов именно тогда, когда это особенно нужно
+              </p>
+            </div>
+            <div class="col-xl-3 positionI">
+              <div class="img">
+                <img
+                  src="https://www.pulscen.ru/system/ckeditor_assets/pictures/210246/content_web2_1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="blue_block">
+            <p class="text_head" id="start">
+              Выберите один из трех вариантов усиления продаж или запросите
+              персональный микс из сервисов Пульса цен под ваши задачи
+            </p>
+            <div class="row">
+              <div class="col-xl-5">
+                <a href="#case">
+                  <div
+                    class="heading_Button_white ab-order js-apress-order-button js-orders-callback-link"
+                    data-button-type="order_callback"
+                    data-company="99572059"
+                    data-company-id="99572059"
+                    data-company-name="Пульс цен Онлайн"
+                    data-company-name-rest=""
+                    data-company-url="https://help.pulscen.ru/"
+                    data-params='{"company_id":"99572059"}'
+                    data-statistics="1"
+                    data-type="callback"
+                  >
+                    {crm_analytics:click_link(Получить персональное
+                    предложение,#start,network_actions,НК_Микс_Индивид_150920)}
+                  </div>
+                </a>
+              </div>
+              <div class="col-xl-5">
+                <a href="#strong">
+                  <div class="heading_Button">
+                    {crm_analytics:click_link(Посмотреть
+                    варианты,#show,network_actions,НК_Микс_Варианты_150920)}
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="bg_blued">
+          <div class="content row window_behefit">
+            <p class="col-xl-12 main_heading" id="show">
+              Какую задачу вы хотите решить?
+            </p>
+            <div class="col-xl-4">
+              <div class="block_task_yel">
+                <p class="heading">
+                  Увеличить прибыль в сезон без дополнительных расходов
+                </p>
+                <div class="line"></div>
+                <div class="text">
+                  Для вас год продаж на Пульсе цен + первые места в рубриках на
+                  самые горячие месяцы сезона
+                </div>
+                <div class="benefit" id="benefit" onclick="hiddenTO()">
+                  Ваша выгода: &#9660;
+                </div>
+                <div class="denefit_list" id="denefit_list_js">
+                  <p>больше заказов в сезон</p>
+                  <p>
+                    кономия бюджета: высокие места в каталоге только в нужное
+                    время
+                  </p>
+                  <p>
+                    возможность оценить преимущества премиального размещения
+                  </p>
+                  <p>годовой доступ к базе готовых заявок</p>
+                </div>
+
+                <div
+                  class="heading_Button ab-order js-apress-order-button js-orders-callback-link"
+                  data-button-type="order_callback"
+                  data-company="99572059"
+                  data-company-id="99572059"
+                  data-company-name="Пульс цен Онлайн"
+                  data-company-name-rest=""
+                  data-company-url="https://help.pulscen.ru/"
+                  data-params='{"company_id":"99572059"}'
+                  data-statistics="1"
+                  data-type="callback"
+                >
+                  {crm_analytics:click_link(Усилить продажи в
+                  сезон,/,network_actions,НК_Микс_Пакеты_150920)}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="block_task_red">
+                <p class="heading">Собрать максимум заказов до конца сезона</p>
+                <div class="line"></div>
+                <div class="text">
+                  Для вас год продаж на Пульсе цен + контекст в Яндексе на
+                  период усиления продаж
+                </div>
+                <div
+                  class="benefit"
+                  id="benefit_js_red"
+                  onclick="hiddenTO_red()"
+                >
+                  Ваша выгода: &#9660;
+                </div>
+                <div class="denefit_list" id="denefit_list_js_red">
+                  <p>больше клиентов при меньшем бюджете</p>
+                  <p>двойной охват аудитории: с Пульса цен и из Яндекса</p>
+                  <p>
+                    грамотная настройка и ведение рекламной кампании от опытных
+                    специалистов в B2B-сегменте
+                  </p>
+                  <p>годовой доступ к базе готовых заявок</p>
+                </div>
+
+                <div
+                  class="heading_Button ab-order js-apress-order-button js-orders-callback-link"
+                  data-button-type="order_callback"
+                  data-company="99572059"
+                  data-company-id="99572059"
+                  data-company-name="Пульс цен Онлайн"
+                  data-company-name-rest=""
+                  data-company-url="https://help.pulscen.ru/"
+                  data-params='{"company_id":"99572059"}'
+                  data-statistics="1"
+                  data-type="callback"
+                >
+                  {crm_analytics:click_link(Усилить продажи
+                  сейчас,/,network_actions,НК_Микс_Яндекс_150920 )}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4">
+              <div class="block_task_fiol">
+                <p class="heading">
+                  Получить заказы со всей России с минимальными вложениями
+                </p>
+                <div class="line"></div>
+                <div class="text">
+                  Для вас год продаж на Пульсе цен в родном городе + 214 городов
+                  РФ на месяцы пикового спроса
+                </div>
+                <div
+                  class="benefit"
+                  id="benefit_js_fiol"
+                  onclick="hiddenTO_fiol()"
+                >
+                  Ваша выгода: &#9660;
+                </div>
+                <div class="denefit_list" id="denefit_list_js_fiol">
+                  <p>больше клиентов при меньшем бюджете</p>
+                  <p>заказы от покупателей со всей России</p>
+                  <p>
+                    повышение узнаваемости товаров и компании на федеральном
+                    уровне
+                  </p>
+                  <p>годовой доступ к базе готовых заявок</p>
+                </div>
+
+                <div
+                  class="heading_Button ab-order js-apress-order-button js-orders-callback-link"
+                  data-button-type="order_callback"
+                  data-company="99572059"
+                  data-company-id="99572059"
+                  data-company-name="Пульс цен Онлайн"
+                  data-company-name-rest=""
+                  data-company-url="https://help.pulscen.ru/"
+                  data-params='{"company_id":"99572059"}'
+                  data-statistics="1"
+                  data-type="callback"
+                >
+                  {crm_analytics:click_link(Получить заказы из
+                  регионов,/,network_actions,НК_Микс_Города_150920 )}
+                </div>
+              </div>
+            </div>
+            <p class="subtitile">
+              Компании, которые впервые подключат платное размещение сейчас,
+              смогут оценить возможности премиального размещения на Пульсе цен
+              по значительно меньшей стоимости.
+            </p>
+          </div>
+        </div>
+
+        <div class="sale_wrapperSlider content" id="case">
+          <section>
+            <p class="sale_sliderHeading">
+              Как это работает на промышленном рынке
+            </p>
+          </section>
+          <div class="sectionn_SliderTop">
+            <div class="blog_case_0" id="blog_case_0">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="wrapper_case">
+              <div class="blog_case">
+                <div class="sale_paddingLeft40">
+                  <p>Компания: <b class="chart_1">«Астек» в г. Пермь</b></p>
+                  <p class="chart_2 paddingTop7">
+                    Направление: Продажа тротуарной плитки
+                  </p>
+                  <p class="chart_3 paddingTop7">
+                    Задача: <b> Увеличить охват целевой аудитории в сезон</b>
+                  </p>
+                </div>
+
+                <div class="img"></div>
+                <hr class="sale_gorizontImg" />
+
+                <div class="sale_paddingLeft20">
+                  <p><b> Запущена комплексная программа продвижения:</b></p>
+                  <p class="paragraph paddingTop7">
+                    <span class="tepe">-</span>
+                    <span class="chart_4"
+                      >Высокие места в рубрике («Старт.Платина») + контекст в
+                      Яндексе с мая по июль 2020 г.</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider_img_rel">
+            <img id="img_case0" src="" alt="" />
+            <img
+              class="img_case"
+              id="img_1"
+              src="https://www.pulscen.ru/system/ckeditor_assets/pictures/199645/content_grafik-_tur.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="heading_Button ab-order js-apress-order-button js-orders-callback-link"
+            data-button-type="order_callback"
+            data-company="99572059"
+            data-company-id="99572059"
+            data-company-name="Пульс цен Онлайн"
+            data-company-name-rest=""
+            data-company-url="https://help.pulscen.ru/"
+            data-params='{"company_id":"99572059"}'
+            data-statistics="1"
+            data-type="callback"
+          >
+            Хочу такие результаты
+          </div>
+        </div>
+
+        <section class="futer_main">
+          <div class="futer_wrapper">
+            <div class="contact">
+              <p class="heading_futer"><b>Остались вопросы?</b></p>
+
+              <div class="col_cintact_futer">
+                <div class="massenger_futer">
+                  <img
+                    src="https://www.pulscen.ru/system/ckeditor_assets/pictures/204254/content_p.png"
+                    alt=""
+                  />
+                  <p class="numder_futer fat">
+                    <a href="https://wa.me/+79292690013"> +7 929 269 00 13</a>
+                  </p>
+                </div>
+                <div class="note_futer">- WhatsApp или Viber</div>
+              </div>
+
+              <div class="col_cintact_futer">
+                <div class="massenger_futer">
+                  <img
+                    src="https://www.pulscen.ru/system/ckeditor_assets/pictures/204255/content_r.png"
+                    alt=""
+                  />
+                  <p class="numder_futer fat">
+                    <a href="tel: 88002344310">8 800 234 43 10</a>
+                  </p>
+                </div>
+                <div class="note_futer">- бесплатно на территории РФ</div>
+              </div>
+              <div
+                class="pointer_futer ab-order js-apress-order-button js-orders-callback-link"
+                data-button-type="order_callback"
+                data-company="99560299"
+                data-company-id="99560299"
+                data-company-name="Пульс Цен - Техническая поддержка"
+                data-company-name-rest=""
+                data-company-url="https://support.pulscen.ru/"
+                data-params='{"company_id":"99560299"}'
+                data-statistics="1"
+                data-type="callback"
+              >
+                <span class="coll_me_futer"> <b>Позвоните мне</b> </span>
+              </div>
+            </div>
+            <div class="agreement">
+              <a target="_blank" href="https://ekb.pulscen.ru/about/terms">
+                <p class="text_futter">Пользовательское соглашение</p>
+              </a>
+
+              <a target="_blank" href="https://ekb.pulscen.ru/about/privacy">
+                <p class="text_futter">Политика конфиденциальности</p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    {crm_analytics:show_page(network_actions,НК_Микс_150920)}
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js "></script>
+  <!-- <script src="sale.js" charset="utf-8"></script> -->
+  <script
+    src="https://www.pulscen.ru/system/ckeditor_assets/attachments/199628/sale.js"
+    charset="utf-8"
+  ></script>
+
+  <script>
+    function hiddenTO() {
+      let text = document.getElementById("denefit_list_js");
+      let benefit = document.getElementById("benefit");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+        benefit.innerHTML = "Ваша выгода: &#9650;";
+      } else {
+        text.style.display = "none";
+        benefit.innerHTML = "Ваша выгода: &#9660;";
+      }
+    }
+
+    function hiddenTO_red() {
+      let text = document.getElementById("denefit_list_js_red");
+      let benefit = document.getElementById("benefit_js_red");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+        benefit.innerHTML = "Ваша выгода: &#9650;";
+      } else {
+        text.style.display = "none";
+        benefit.innerHTML = "Ваша выгода: &#9660;";
+      }
+    }
+
+    function hiddenTO_fiol() {
+      let text = document.getElementById("denefit_list_js_fiol");
+      let benefit = document.getElementById("benefit_js_fiol");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+        benefit.innerHTML = "Ваша выгода: &#9650;";
+      } else {
+        text.style.display = "none";
+        benefit.innerHTML = "Ваша выгода: &#9660;";
+      }
+    }
+  </script>
+</html>

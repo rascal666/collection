@@ -1,0 +1,633 @@
+    .wrapper-text ul {
+        margin: 15px 0 15px;
+        padding-left: 0px;
+    }
+    
+    .wrapper-text p {
+        margin-bottom: 0px;
+    }
+    
+    #content,
+    #searchline {
+        margin-top: 0em;
+        min-width: 0px;
+    }
+    
+    body {
+        min-width: 0 !important;
+        background-color: white;
+    }
+    
+    .wrapper-text p {
+        margin-bottom: 0px;
+    }
+    
+    .wrapper-text {
+        color: #5E7491;
+        line-height: normal;
+        overflow: hidden;
+    }
+    
+    .base-width {
+        background-color: transparent;
+        margin: 0;
+        max-width: none;
+        min-width: 0;
+    }
+    
+    .catalogue {
+        padding: 0;
+    }
+    
+    .cms-page .col-middle {
+        background: none;
+        border: none;
+        box-shadow: none;
+        padding: 0 !important;
+    }
+    
+    .catalogue h1 {
+        display: none;
+    }
+    
+    #content {
+        margin-top: 0;
+    }
+    
+    .wrapper-text ul li {
+        list-style-type: none !important;
+    }
+    
+    .wrapper-text table td {
+        padding: 20px;
+    }
+    
+    .simple-breadcrumbs {
+        display: none !important;
+    }
+    /* --- */
+    
+    .p20px {
+        font-size: 20px;
+    }
+    
+    .imgAll_Rassia_mobil {
+        display: none;
+    }
+    
+    .rascal_h2 {
+        letter-spacing: 0.08em;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    
+    .color5E7491 {
+        color: #5E7491;
+    }
+    
+    .main {
+        max-width: 1920px;
+        margin: auto;
+        letter-spacing: 0.02em;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .content {
+        max-width: 1289px;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .color_black {
+        color: #5E7491;
+    }
+    
+    .bg_heading_main {
+        background: linear-gradient(270deg, #4DAEF4 0%, #0277BD 100%);
+        position: relative;
+        font-size: 18px;
+    }
+    
+    .heading_main {
+        max-width: 1289px;
+        margin: auto;
+        width: 90%;
+    }
+    
+    .heading_heading {
+        color: #FFFFFF;
+        font-size: 40px;
+        font-family: 'Russo One', sans-serif;
+        padding-bottom: 40px;
+        font-weight: 100;
+    }
+    
+    .no_mobil {
+        padding-left: 0px;
+        position: absolute;
+        width: 1207px;
+        right: 0px;
+        top: 73px;
+    }
+    
+    .heading_text2 {
+        padding-bottom: 60px;
+        width: 470px;
+    }
+    
+    .heading_all_taxt {
+        max-width: 685px;
+        width: 100%;
+    }
+    
+    .logo {
+        max-width: 1289px;
+        padding-top: 150px;
+        width: 90%;
+    }
+    
+    .mobil {
+        display: none;
+    }
+    
+    .mobil_smal {
+        display: none;
+    }
+    
+    .fat {
+        font-weight: bold;
+    }
+    
+    .margin-bottom150 {
+        margin-bottom: 150px;
+    }
+    
+    .padding_bottom_40 {
+        padding-bottom: 40px;
+    }
+    
+    .padding_bottom_25 {
+        padding-bottom: 25px;
+    }
+    
+    .allRassia_button1 {
+        padding: 15px 40px;
+        margin: 0px 0 0 0;
+        width: fit-content;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FF5D4B !important;
+        white-space: normal !important;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        background: rgb(255, 255, 255);
+        border: 1px solid #FF5D4B;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    .info_block_heading {
+        background: #FFFFFF;
+        box-shadow: 0px 6px 18px rgba(94, 116, 145, 0.3);
+        border-radius: 5px;
+        padding: 45px;
+        color: #5E7491;
+        width: 450px;
+    }
+    
+    .arrow_heading {
+        display: grid;
+        justify-items: center;
+        padding: 60px 0;
+    }
+    
+    .heading_stages_pageAutorization {
+        display: block;
+    }
+    
+    .heading_stages_pageAutorizationNobile {
+        display: none;
+    }
+    /* -----------stages_pageAutorization---------- */
+    
+    .block_stages_stages_pageAutorization {
+        display: grid;
+        grid-row-gap: 30px;
+    }
+    
+    .wrapper_stages_pageAutorization {
+        display: grid;
+        grid-template-columns: 1.17fr 1fr;
+    }
+    
+    .coll_stages_pageAutorization {
+        display: grid;
+        grid-template-columns: .1fr 1fr;
+        grid-column-gap: 10px;
+        align-items: center;
+    }
+    
+    .doshed_stages_pageAutorization {
+        min-height: 364px;
+        position: absolute;
+        border-left: 1px dashed #ffce4f;
+        margin-left: 1px;
+        margin-top: 2px;
+    }
+    
+    .icon_stages_pageAutorization {
+        display: grid;
+        justify-items: center;
+        position: relative;
+    }
+    
+    .z-index1_stages_pageAutorization {
+        z-index: 1;
+    }
+    
+    .text_stages_pageAutorization {
+        /* line-height: 19px; */
+        letter-spacing: 0.04em;
+        color: #5E7491;
+    }
+    
+    .heading_stages_pageAutorization {
+        line-height: 35px;
+        letter-spacing: 0.03em;
+        color: #5E7491;
+        padding-bottom: 35px;
+        width: 500px;
+        padding-top: 23px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 26px;
+    }
+    
+    .img_stages_pageAutorization {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .img_stages_pageAutorization img {
+        width: fit-content;
+    }
+    /* carts_wight_sale */
+    
+    .carts_wight_sale {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 46px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .carts_wight_sale_block {
+        background: #FFFFFF;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        padding: 60px;
+    }
+    
+    .carts_wight_sale_line {
+        border: 1px solid #DDE1ED;
+        transform: rotate(-0.19deg);
+        width: 100%;
+        margin: 40px 0;
+    }
+    
+    .rovno_carts_wight_sale {
+        display: grid;
+        grid-template-rows: 118px 1fr;
+    }
+    
+    .carts_wight_sale_text_sale {
+        font-size: 30px;
+    }
+    
+    .allRassia_button {
+        padding: 15px 40px;
+        margin: 0px 0 0 0;
+        margin: 0px 0 0 0;
+        width: auto;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF !important;
+        white-space: normal !important;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        background: #2196F3;
+        border: 1px solid #2196F3;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    .allRassia_button:hover {
+        background: #3398eb;
+        border: 1px solid #3398eb;
+    }
+    
+    .allRassia_button a {
+        color: #FFFFFF !important;
+        text-decoration: none;
+    }
+    
+    .allRassia_button a:hover {
+        color: #FFFFFF !important;
+    }
+    /* end */
+    
+    .note_futer {
+        width: auto;
+    }
+    
+    .futer_main {
+        background: linear-gradient(270deg, #4DAEF4 0%, #0277BD 100%);
+    }
+    
+    .futer_line {
+        border: 1px solid #FFFFFF;
+        margin: 30px 0px 50px 0;
+        width: 100px;
+    }
+    
+    .futter_content {
+        padding: 80px 0;
+    }
+    
+    .futer_wrapper {
+        padding: 0;
+    }
+    
+    .massenger_futer {
+        display: flex;
+        width: auto;
+        align-items: baseline;
+    }
+    
+    .primechanie a {
+        text-decoration: none;
+        color: #2196F3;
+        font-size: 26px;
+    }
+    
+    @media(min-width:1920px) {
+        .no_mobil {
+            width: 1207px;
+            right: 0px;
+            top: 73px;
+        }
+    }
+    
+    @media(max-width:1880px) {
+        .no_mobil {
+            width: 63vw;
+        }
+    }
+    
+    @media (max-width: 1540px) {
+        .no_mobil {
+            width: 65vw;
+            top: 128px;
+        }
+    }
+    
+    @media (max-width: 1366px) {
+        .no_mobil {
+            width: 62vw;
+            top: 10vw;
+        }
+    }
+    
+    @media(max-width:1440px) {
+        .wrapper_stages_pageAutorization {
+            grid-template-columns: 1fr 1.2fr;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .heading_main {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+        }
+        .logo {
+            padding-top: 40px;
+        }
+        .heading_text2 {
+            width: 100%;
+        }
+        .info_block_heading {
+            width: fit-content;
+        }
+        .mobil {
+            display: block;
+            position: relative;
+            width: 90vw;
+        }
+        .no_mobil {
+            display: none;
+        }
+        .carts_wight_sale {
+            grid-template-columns: 1fr;
+            grid-row-gap: 40px;
+        }
+        .carts_wight_sale_block {
+            padding: 60px;
+        }
+        .rovno_carts_wight_sale {
+            grid-template-rows: 1fr;
+        }
+        .carts_wight_sale_line {
+            border-left: none;
+            transform: rotate(-0.19deg);
+            width: 1px;
+            margin: 0px 0;
+            background: #DDE1ED;
+            height: 100%;
+        }
+        .carts_wight_sale_block {
+            display: grid;
+            grid-template-columns: 176px 100px 1fr;
+            justify-items: center;
+        }
+        .allRassia_button {
+            width: fit-content;
+        }
+    }
+    
+    @media(max-width:1100px) {
+        .wrapper_stages_pageAutorization {
+            grid-template-columns: 1fr;
+        }
+        .heading_stages_pageAutorizationNobile {
+            font-family: 'Russo One', sans-serif;
+            display: block;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: #424B5E;
+            padding-bottom: px;
+            width: 88%;
+            padding-top: 0px;
+        }
+        .img_stages_pageAutorization {
+            display: grid;
+            align-items: end;
+            grid-template-columns: 1fr;
+        }
+        .heading_stages_pageAutorization {
+            width: 100%;
+        }
+        .margin-bottom150 {
+            margin-bottom: 60px;
+        }
+        .heading_stages_pageAutorization {
+            padding-bottom: 25px;
+            padding-top: 0px;
+        }
+        .block_stages_stages_pageAutorization {
+            grid-row-gap: 25px;
+        }
+        .doshed_stages_pageAutorization {
+            min-height: 339px;
+        }
+    }
+    
+    @media (max-width: 1080px) {
+        .no_mobil {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        .img_stages_pageAutorization {
+            grid-template-columns: 1fr;
+            grid-row-gap: 3.5vw;
+        }
+        .heading_stages_pageAutorizationNobile {
+            justify-self: baseline;
+        }
+        .img_stages_pageAutorization img {
+            width: 60vw;
+        }
+        .bg_heading_main {
+            font-size: 16px;
+        }
+        .allRassia_button {
+            font-size: 16px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .doshed_stages_pageAutorization {
+            min-height: 393px;
+        }
+        .carts_wight_sale_line {
+            border: 1px solid #DDE1ED;
+            transform: rotate(-0.19deg);
+            width: 100%;
+            margin: 40px 0;
+            height: 0px;
+        }
+        .carts_wight_sale_block {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+        .allRassia_button {
+            width: auto;
+        }
+        .carts_wight_sale_block {
+            padding: 25px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .mobil {
+            display: none;
+        }
+        .mobil_smal {
+            display: block;
+            position: relative;
+            right: 24px;
+            width: 96vw;
+        }
+        .heading_heading {
+            font-size: 36px;
+            padding-bottom: 30px;
+        }
+        .main {
+            font-size: 16px;
+        }
+        .info_block_heading {
+            padding: 25px;
+        }
+        .padding_bottom_40 {
+            padding-bottom: 30px;
+        }
+        .heading_text2 {
+            padding-bottom: 40px;
+        }
+        .arrow_heading {
+            padding: 40px 0;
+        }
+        .coll_stages_pageAutorization {
+            grid-template-columns: .2fr 1fr;
+        }
+        .carts_wight_sale_text_sale {
+            font-size: 20px;
+        }
+        .p20px {
+            font-size: 18px;
+        }
+        .futter_content {
+            padding: 40px 0;
+        }
+        .heading_stages_pageAutorization {
+            font-size: 20px;
+        }
+        .primechanie a {
+            font-size: 20px;
+        }
+        .doshed_stages_pageAutorization {
+            min-height: 375px;
+        }
+    }
+    
+    @media(max-width:400px) {
+        .doshed_stages_pageAutorization {
+            min-height: 25em;
+        }
+    }
+    
+    @media(max-width:370px) {
+        .doshed_stages_pageAutorization {
+            min-height: 400px;
+        }
+    }
+    
+    @media(max-width:370px) {
+        .doshed_stages_pageAutorization {
+            min-height: 440px;
+        }
+    }
+    
+    @media(max-width:340px) {
+        .doshed_stages_pageAutorization {
+            min-height: 441px;
+        }
+    }
+    
+    .width {
+        width: 100%;
+    }
+    
+    .baseline {
+        justify-self: baseline;
+    }

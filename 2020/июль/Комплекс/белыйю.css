@@ -1,0 +1,12 @@
+.my_container-button2 a {
+    color: #FFF !important;
+    text-decoration: none !important;
+}
+
+.my_container-button2 a:hover {
+    color: #0277bd !important;
+}
+
+.my_container-button2:hover {
+    color: #0277bd !important;
+}

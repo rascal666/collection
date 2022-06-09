@@ -1,0 +1,301 @@
+.wrapper-text p {
+  margin-bottom: revert;
+}
+
+.main_content {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #013a59;
+}
+
+.content {
+  max-width: 1366px;
+  width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.header_header {
+  background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/208405/content_group_109_1.png) no-repeat right top;
+  background-size: 55%;
+  font-size: 20px;
+}
+
+.header_header .logo {
+  margin-top: 80px;
+}
+
+.header_header .header {
+  margin: 50px 0;
+}
+
+.header_header .header .nav {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.header_header .header .subtitle {
+  width: 436px;
+}
+
+.header_header .header__block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1.3fr 0.5fr;
+      grid-template-rows: 1fr 1.3fr 0.5fr;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 5px 50px rgba(174, 172, 242, 0.46);
+          box-shadow: 0px 5px 50px rgba(174, 172, 242, 0.46);
+  padding: 40px 30px;
+}
+
+.header_header .heading_batton_line {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.header_header .heading_batton_line .batton {
+  color: #028dd8;
+}
+
+.header_header .heading_batton_line .batton a {
+  text-decoration: none;
+}
+
+.header_header .heading_batton_line .line {
+  margin-top: 10px;
+  background: #bce8ff;
+  width: 50%;
+  height: 3px;
+}
+
+.header_header .heading_batton_line:hover > .line {
+  background: #028dd8;
+  width: 100%;
+  -webkit-transition: ease all 1s;
+  transition: ease all 1s;
+}
+
+.header_header .img {
+  position: absolute;
+  top: 30px;
+  left: 75%;
+}
+
+.tatarstan {
+  max-width: 1366px;
+  width: 90%;
+  margin: auto;
+  padding: 150px 0;
+}
+
+.heading_window {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.subtitle_window {
+  font-size: 20px;
+  padding-bottom: 80px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.d-flex p {
+  margin-left: 15px;
+}
+
+.img_window {
+  width: 95%;
+}
+
+.heading_Button_white {
+  margin: 50px 0;
+}
+
+.text_red {
+  color: #b21313;
+}
+
+.rassia {
+  max-width: 1366px;
+  width: 90%;
+  margin: auto;
+  padding: 0 0 150px 0;
+}
+
+.rassia .bg {
+  max-width: 123%;
+  width: 123%;
+  top: 22%;
+  z-index: 1;
+  height: 200px;
+  background: antiquewhite;
+  position: absolute;
+  left: -45%;
+  background: linear-gradient(97.44deg, #eca971 30.02%, rgba(255, 255, 255, 0) 107.69%);
+  border-radius: 10px;
+}
+
+.rassia .img_window {
+  width: 95%;
+  position: relative;
+  z-index: 2;
+}
+
+.whay {
+  background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/208316/content_polygon_2.png) no-repeat right 18%/60%;
+  max-width: 1366px;
+  width: 90%;
+  margin: auto;
+  padding: 150px 0;
+}
+
+.whay .heading {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.whay .subtitle {
+  margin-bottom: 25px;
+}
+
+.whay .subtitle_list {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.whay .line {
+  -webkit-box-shadow: 0px 1px 5px #9db3ff;
+          box-shadow: 0px 1px 5px #9db3ff;
+  height: 1px;
+  width: 500px;
+  margin: 30px 0;
+}
+
+.whay .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.whay .number span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #9ddcff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+.whay p {
+  margin-bottom: 0;
+}
+
+.futer_main {
+  background: #9ddcff;
+  color: #013a59;
+}
+
+.agreement a {
+  color: #013a59;
+}
+
+.coll_me_futer {
+  border-bottom: 1px dashed #013a59;
+}
+
+@media (max-width: 1400px) {
+  .header_header {
+    font-size: 16px;
+  }
+  .subtitle_window {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header_header {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/208400/content_group_108.png) no-repeat right top/75%;
+  }
+  .header_header .img {
+    display: none;
+  }
+  .header_header .header__block {
+    margin-bottom: 30px;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
+  .pT {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header_header {
+    font-size: 16px;
+  }
+  .header_header .logo {
+    margin-top: 60px;
+  }
+  .header_header .header {
+    margin: 50px 0;
+  }
+  .header_header .header .nav {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+  .tatarstan {
+    max-width: 1366px;
+    width: 90%;
+    margin: auto;
+    padding: 60px 0;
+  }
+  .rassia {
+    max-width: 1366px;
+    width: 90%;
+    margin: auto;
+    padding: 0 0 60px 0;
+  }
+  .whay {
+    background: none;
+    max-width: 1366px;
+    width: 90%;
+    margin: auto;
+    padding: 60px 0;
+  }
+  .heading_window {
+    font-size: 26px;
+  }
+  .heading_Button_white {
+    margin: 30px 0;
+  }
+  .whay .heading {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .whay .number {
+    margin-bottom: 20px;
+  }
+}

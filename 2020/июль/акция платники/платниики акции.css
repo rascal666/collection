@@ -1,0 +1,548 @@
+/* Сброс врапперов*/
+
+body {
+    min-width: 0 !important;
+    background-color: white;
+}
+
+.wrapper-text p {
+    margin-bottom: 0em;
+    margin-bottom: 0px;
+}
+
+.base-width {
+    background-color: transparent;
+    margin: 0;
+    max-width: none;
+    min-width: 0;
+}
+
+.wrapper-text ul {
+    margin: 0px;
+    padding: 0px 0px 56px 0px;
+}
+
+.wrapper-text ul li {
+    padding: 0 0 24px;
+}
+
+.catalogue {
+    padding: 0;
+}
+
+.cms-page .col-middle {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0 !important;
+}
+
+.catalogue h1 {
+    display: none;
+}
+
+#content {
+    margin-top: 0;
+}
+
+.wrapper-text ul li {
+    list-style-type: none !important;
+}
+
+.wrapper-text table td {
+    padding: 20px;
+}
+
+.simple-breadcrumbs {
+    display: none !important;
+}
+
+
+/* --- */
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+.main {
+    color: #5E7491;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.text_h3 {
+    max-width: 895px;
+    width: 100%;
+}
+
+.text_h3 {
+    max-width: 670px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text_h4 {
+    max-width: 780px;
+    width: 100%;
+}
+
+.blueBg {
+    max-width: 1920px;
+    margin: auto;
+    background: #EAF3FA;
+}
+
+.heading_Button {
+    border-radius: 3px;
+    padding: 15px 40px;
+    width: fit-content;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF !important;
+    white-space: normal !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background: #0492DE;
+    border: 1px solid #0492DE;
+    border-radius: 3px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.contentSection a {
+    text-decoration: none;
+}
+
+.heading_Button:hover {
+    color: #FFFFFF !important;
+    background: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.bgWhite {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.contentSection_oneWindow {
+    max-width: 1315px;
+    width: 90%;
+    margin: auto;
+    padding: 120px 0;
+    box-sizing: border-box;
+}
+
+.contentSection {
+    max-width: 1315px;
+    width: 90%;
+    margin: auto;
+    padding: 120px 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.paddingB80 {
+    padding-bottom: 80px;
+}
+
+.paddingB60 {
+    padding-bottom: 60px;
+}
+
+.paddingB30 {
+    padding-bottom: 30px;
+}
+
+.futer_wrapper {
+    max-width: 1315px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    padding: 120px 0;
+    grid-row-gap: 25px;
+}
+
+
+/* первый экран */
+
+.text_h1 {
+    font-size: 50px;
+    line-height: 59px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one_block_width_img {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.one_block_width_img .text_h1 {
+    max-width: 484px;
+}
+
+.heading_img {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+}
+
+.heading_img img {
+    width: 496px;
+}
+
+.template_advantages2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(397px, auto));
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+}
+
+.vid {
+    color: #2196F3;
+}
+
+
+/* кейс */
+
+.text_h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.line_case {
+    width: 100%;
+    height: 1px;
+    background: #8695AC;
+    margin: 0px 0 40px 0px;
+}
+
+
+/* ------------блок с кейсом--------------- */
+
+.main_how_work_sell_fast {
+    border: 1px solid rgba(134, 149, 172, 0.3);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.wrapper_how_work_sell_fast {
+    display: grid;
+    grid-template-columns: 1fr .17fr 1fr;
+    grid-column-gap: 30px;
+    align-items: top;
+    padding-bottom: 40px;
+}
+
+.heading_how_work_sell_fast {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #424B5E;
+    padding-bottom: 24px;
+}
+
+.textZona_wrapper_task_how_work_sell_fast {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    border: 1px dashed #5E7491;
+    border-radius: 3px;
+    padding: 25px;
+    margin-bottom: 60px;
+}
+
+.textZona_text_task_how_work_sell_fast {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #5E7491;
+}
+
+.dotted_how_work_sell_fast {
+    border-top: 1px dashed #5E7491;
+    margin-top: 34px;
+}
+
+.block_how_work_sell_fast {
+    background: linear-gradient(90deg, #2196F3 0%, #6686F5 98.96%);
+    border-radius: 3px;
+    padding: 24px 32px;
+    height: fit-content;
+}
+
+.heading_block_how_work_sell_fast {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 18px;
+}
+
+.text__block_how_work_sell_fast {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.line_block_how_work_sell_fast {
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 28px;
+    margin-left: -31px;
+    max-width: 101px;
+}
+
+.coll__block_how_work_sell_fast {
+    display: grid;
+    grid-template-columns: .1fr 9fr;
+    grid-column-gap: 10px;
+    color: white;
+    align-items: center;
+}
+
+.img_how_work_sell_fast {
+    max-width: 100%;
+}
+
+.img_how_work_sell_fastMobil {
+    display: none;
+}
+
+.text__block_how_work_sell_fast_tere {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr;
+    grid-column-gap: 10px;
+}
+
+
+/* end */
+
+.template_advantages2 img {
+    width: 50px;
+}
+
+
+/* слайдер */
+
+.sliderMegasite {
+    max-width: 1116px;
+    margin: auto;
+}
+
+.sliderMegasiteImg {
+    display: none;
+}
+
+.sliderMegasiteImgContainer {
+    margin: auto;
+    max-width: 1136px;
+    padding-top: 30px;
+}
+
+.sliderMegasiteImgBedin {
+    width: 100%;
+}
+
+.siderMegasite_button {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    display: grid;
+    grid-template-columns: 30px 30px;
+    grid-column-gap: 10px;
+    max-width: 1136px;
+    justify-items: end;
+    justify-content: end;
+}
+
+.siderMegasite_buttonPrev {
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.siderMegasite_buttonPrev:hover {
+    border: 1px solid #63afee;
+}
+
+.siderMegasite_buttonNext {
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.siderMegasite_buttonNext:hover {
+    border: 1px solid #63afee;
+}
+
+.siderMegasite_icon {
+    opacity: 1 !important;
+    width: 8px;
+}
+
+
+/* футер */
+
+.futer_main {
+    max-width: 1920px;
+    background: #ffffff;
+    color: #8695AC;
+    letter-spacing: 0.04em;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+.futer_main a {
+    text-decoration: none;
+    color: #8695AC;
+}
+
+.massenger_futer {
+    width: 177px;
+}
+
+
+/* end */
+
+@media(max-width: 1500px) {
+    .wrapper_how_work_sell_fast {
+        grid-column-gap: 19px;
+    }
+    .textZona_wrapper_task_how_work_sell_fast {
+        font-size: 14px;
+    }
+    .line_block_how_work_sell_fast {
+        padding-top: 18px;
+    }
+}
+
+@media(max-width:1080px) {
+    .wrapper_how_work_sell_fast {
+        grid-template-columns: 1fr;
+    }
+    .dotted_how_work_sell_fast {
+        border-top: 2px dashed #ffffff;
+        margin-top: 24px;
+    }
+    .one_block_width_img {
+        flex-direction: column-reverse;
+    }
+    .contentSection_oneWindow {
+        padding: 0px 0 40px 0;
+    }
+    .heading_img img {
+        padding: 30px 0;
+    }
+    .one_block_width_img .text_h1 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+    .paddingB80 {
+        padding-bottom: 30px;
+    }
+    .one_block_width_img {
+        padding-bottom: 40px;
+    }
+    .line_case {
+        display: none;
+    }
+}
+
+@media(max-width:880px) {
+    .wrapper_how_work_sell_fast {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:500px) {
+    .main_how_work_sell_fast {
+        padding: 0px;
+        border: none;
+    }
+    .wrapper_how_work_sell_fast {
+        padding-bottom: 29px;
+    }
+    .textZona_wrapper_task_how_work_sell_fast {
+        line-height: 21px;
+        padding: 12px 22px;
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 0em;
+    }
+    .img_how_work_sell_fast {
+        display: none;
+    }
+    .img_how_work_sell_fastMobil {
+        display: block;
+        width: 100%;
+    }
+    .dotted_how_work_sell_fast {
+        margin-top: 24px;
+    }
+    .one_block_width_img .text_h1 {
+        max-width: 100%;
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .heading_img img {
+        width: 260px;
+    }
+    .paddingB60 {
+        padding-bottom: 40px;
+    }
+    .template_advantages_block2 {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+    .template_advantages2 {
+        grid-template-columns: 1fr;
+    }
+    .contentSection {
+        padding: 40px 0px;
+    }
+    .text_h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .textZona_wrapper_task_how_work_sell_fast {
+        margin-bottom: 30px;
+    }
+    .futer_wrapper {
+        padding: 40px 0;
+    }
+}
+
+.colorGrey {
+    color: #5E7491;
+}

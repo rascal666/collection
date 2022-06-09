@@ -1,0 +1,508 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    p {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .subtitle_sale_on_start16 {
+        font-size: 16px;
+    }
+    
+    .subtitle_sale_on_start20 {
+        font-size: 20px;
+    }
+    
+    .text_sale_on_start14 {
+        font-size: 14px;
+    }
+    
+    .futer_sale_on_start_mobil {
+        display: none;
+    }
+    
+    body {
+        min-width: 0 !important;
+        background-color: white;
+    }
+    
+    .wrapper-text p {
+        margin-bottom: 0px;
+    }
+    
+    .wrapper-text {
+        font-size: 16px;
+        color: #5E7491;
+        line-height: normal;
+        overflow: hidden;
+    }
+    
+    .base-width {
+        background-color: transparent;
+        margin: 0;
+        max-width: none;
+        min-width: 0;
+    }
+    
+    .catalogue {
+        padding: 0;
+    }
+    
+    .cms-page .col-middle {
+        background: none;
+        border: none;
+        box-shadow: none;
+        padding: 0 !important;
+    }
+    
+    .catalogue h1 {
+        display: none;
+    }
+    
+    #content {
+        margin-top: 0;
+    }
+    
+    .wrapper-text ul li {
+        list-style-type: none !important;
+    }
+    
+    .wrapper-text table td {
+        padding: 20px;
+    }
+    
+    .simple-breadcrumbs {
+        display: none !important;
+    }
+    /* --- */
+    
+    * {
+        padding: 0;
+        margin: 0
+    }
+    
+    p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    hr {
+        border: 0;
+        height: 1px;
+        border-bottom: .1px solid #c7dbff;
+        line-height: 1px;
+        padding: 0;
+        margin: 11px 0 13px;
+    }
+    
+    .bg_sale_on_start {
+        background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185414/content_group_76.png) no-repeat 100% 0% / contain, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185419/content_3236267.png) no-repeat 79% 232px / 800px;
+        margin: auto;
+        max-width: 1920px;
+        font-family: 'Open Sans', sans-serif;
+        box-sizing: border-box;
+        color: #424B5E;
+    }
+    
+    .bg_sale_on_start a {
+        text-decoration: none;
+        color: #424B5E !important;
+    }
+    
+    .content_sale_on_start {
+        max-width: 1300px;
+        margin: auto;
+        padding: 84px;
+        padding-bottom: 163px;
+    }
+    /* --------heading_sale_on_start----------- */
+    
+    .wrapper_heading_sale_on_start {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .heading_sale_on_start {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 58px;
+        letter-spacing: 0.02em;
+        color: #424B5E;
+        padding-bottom: 35px;
+        padding-top: 56px;
+    }
+    
+    .subtitle_heading_sale_on_start {
+        letter-spacing: 0.02em;
+        color: #424B5E;
+        width: 377px;
+        line-height: 23px;
+    }
+    
+    .heading_sale_on_start_batton {
+        max-width: 300px;
+        margin: 60px 0px 0px 0px;
+        display: inline-block !important;
+        padding: 18px 6px !important;
+        font-size: 16px !important;
+        font-style: normal !important;
+        white-space: normal !important;
+        color: rgb(255, 255, 255) !important;
+        border: 1px dashed #EA5757;
+        background: #EA5757;
+        border-radius: 5px !important;
+        outline: 0 !important;
+        cursor: pointer !important;
+        -webkit-transition: background-color .2s, color .2s;
+        transition: background-color .2s, color .2s;
+        text-decoration: none !important;
+        letter-spacing: 0.02em;
+        display: grid;
+        text-align: center;
+    }
+    
+    .plashka_heading_sale_on_start {
+        background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185417/content_frame_21_1.png) no-repeat 100% / cover;
+        padding: 31px;
+        justify-self: end;
+        border-radius: 10px;
+        height: fit-content;
+        padding: 31px 152px 33px 43px;
+    }
+    
+    .line_plashka_heading_sale_on_start {
+        width: 80px;
+        height: 2px;
+        background: #FFFFFF;
+        margin: 28px 0px 25px 0px;
+    }
+    
+    .heading_plashka_heading_sale_on_start {
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        padding-top: 11px;
+        line-height: 30px;
+    }
+    
+    .text_plashka_heading_sale_on_start {
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    
+    .heading_plashka_heading_sale_on_start20 {
+        font-size: 40px;
+    }
+    /* --------arrow_sale_on_start----------- */
+    
+    .arrow_sale_on_start {
+        padding-top: 150px;
+        padding-bottom: 115px;
+    }
+    /* --------tarif_sale_on_start----------- */
+    
+    .heading_tarif_sale_on_start {
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        color: #424B5E;
+    }
+    
+    .subtitle_tarif_sale_on_start {
+        letter-spacing: 0.02em;
+        color: #424B5E;
+        padding: 30px 0px 60px 0px;
+        width: 500px;
+    }
+    
+    .blocks_tarif_sale_on_start {
+        grid-column-gap: 161px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 41px;
+    }
+    
+    .cart_tarif_sale_on_start {
+        display: grid;
+        grid-template-columns: .1fr 1fr;
+        grid-column-gap: 20px;
+        align-items: center;
+    }
+    
+    .collMe_futer_sale_on_start {
+        max-width: 300px;
+        margin: 0px 0px 0px 0px;
+        display: inline-block !important;
+        font-size: 14px !important;
+        font-weight: 600;
+        font-style: normal !important;
+        white-space: nowrap !important;
+        color: #424B5E !important;
+        border-radius: 3px !important;
+        outline: 0 !important;
+        cursor: pointer !important;
+        -webkit-transition: background-color .2s, color .2s;
+        transition: background-color .2s, color .2s;
+        text-decoration: none !important;
+        display: flex !important;
+        align-items: center !important;
+        letter-spacing: 0.05em;
+    }
+    
+    .bg_futer_sale_on_start {
+        background: #D6EBF9;
+    }
+    
+    .futer_sale_on_start {
+        max-width: 1468px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        padding: 30px;
+        padding-left: 84px;
+        padding-right: 84px;
+        box-sizing: border-box;
+    }
+    
+    .heading_futer_sale_on_start {
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        color: #424B5E;
+        padding-bottom: 30px;
+    }
+    
+    .collMeborder_futter_tolbar_complex {
+        border-bottom: 1px dashed #424B5E;
+    }
+    
+    .text_futter_tolbar_complex {
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        padding-bottom: 20px;
+    }
+    
+    .text_futer_sale_on_start {
+        padding-bottom: 20px;
+    }
+    
+    .futer_sale_on_startPL {
+        padding-left: 10px;
+    }
+    
+    @media(max-width:1450px) {
+        .plashka_heading_sale_on_start {
+            justify-self: baseline;
+        }
+        .wrapper_heading_sale_on_start {
+            grid-template-columns: 1fr;
+        }
+        .plashka_heading_sale_on_start {
+            margin-top: 40px;
+        }
+        .bg_sale_on_start {
+            background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185419/content_3236267.png) no-repeat 108% -37px / 59%, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185414/content_group_76.png) no-repeat 100% 0% / contain;
+        }
+        .arrow_sale_on_start {
+            padding-top: 70px;
+            padding-bottom: 60px;
+        }
+        .blocks_tarif_sale_on_start {
+            grid-column-gap: 92px;
+        }
+        .content_sale_on_start {
+            padding-bottom: 100px;
+        }
+    }
+    
+    @media(max-width:1320px) {
+        .bg_sale_on_start {
+            background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185419/content_3236267.png) no-repeat 108% 0px / 48%, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185414/content_group_76.png) no-repeat 100% 0% / contain;
+        }
+        .blocks_tarif_sale_on_start {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media(max-width:1230px) {
+        .futer_sale_on_start {
+            grid-template-columns: 75% 278px;
+        }
+    }
+    
+    @media(max-width:1150px) {
+        .bg_sale_on_start {
+            background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185419/content_3236267.png) no-repeat 0% 25px / 500px, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185414/content_group_76.png) no-repeat 100% 0% / 221%;
+        }
+        .content_sale_on_start {
+            padding-top: 320px;
+        }
+        .heading_sale_on_start {
+            font-weight: 800;
+            font-size: 50px;
+            line-height: 58px;
+            letter-spacing: 0.02em;
+            color: #424B5E;
+            padding-bottom: 35px;
+            padding-top: 160px;
+        }
+        .logo_heading_sale_on_start {
+            position: absolute;
+            top: 48px;
+        }
+    }
+    
+    @media(max-width:955px) {
+        .futer_sale_on_start {
+            grid-template-columns: 65% 278px;
+            text-align: center;
+        }
+    }
+    
+    @media(max-width:918px) {
+        .bg_sale_on_start {
+            background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185419/content_3236267.png) no-repeat 0% 25px / 350px, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185414/content_group_76.png) no-repeat 98% 0% / 173%;
+        }
+        .heading_sale_on_start {
+            padding-top: 43px;
+        }
+        .futer_sale_on_start {
+            grid-template-columns: 1fr;
+            grid-gap: 50px;
+        }
+        .collMe_futer_sale_on_start {
+            max-width: 300px;
+            margin: 0px 0px 0px 0px;
+            display: inline-block !important;
+            font-size: 14px !important;
+            font-weight: 600;
+            font-style: normal !important;
+            white-space: nowrap !important;
+            color: #424B5E !important;
+            border-radius: 3px !important;
+            outline: 0 !important;
+            cursor: pointer !important;
+            -webkit-transition: background-color .2s, color .2s;
+            transition: background-color .2s, color .2s;
+            text-decoration: none !important;
+            align-items: center !important;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
+    }
+    
+    @media(max-width:900px) {
+        .blocks_tarif_sale_on_start {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    
+    @media(max-width:760px) {
+        .plashka_heading_sale_on_start {
+            background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185418/content_frame_21_2_2.png) no-repeat 100% / cover;
+            padding: 31px;
+            justify-self: baseline;
+            border-radius: 10px;
+            height: fit-content;
+            padding: 31px 43px 33px 43px;
+        }
+        .subtitle_tarif_sale_on_start {
+            width: 100%;
+        }
+    }
+    
+    @media(max-width:700px) {
+        .heading_sale_on_start {
+            font-size: 40px;
+        }
+        .subtitle_heading_sale_on_start {
+            letter-spacing: 0.02em;
+            color: #424B5E;
+            width: 100%;
+            line-height: 23px;
+        }
+    }
+    
+    @media(max-width:500px) {
+        .logo_heading_sale_on_start {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+        }
+        .bg_sale_on_start {
+            background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185419/content_3236267.png) no-repeat 0% 5px / 324px, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/185414/content_group_76.png) no-repeat 98% 0% / 173%;
+        }
+        .content_sale_on_start {
+            padding: 21px;
+            padding-top: 272px;
+        }
+        .heading_sale_on_start {
+            font-size: 28px;
+            line-height: 49px;
+            padding-bottom: 23px;
+        }
+        .plashka_heading_sale_on_start {
+            margin-top: 30px;
+        }
+        .plashka_heading_sale_on_start {
+            padding: 26px 39px 33px 19px;
+        }
+        .text_plashka_heading_sale_on_start {
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            font-size: 16px;
+        }
+        .heading_sale_on_start_batton {
+            margin: 35px 0px 0px 0px;
+        }
+        .arrow_sale_on_start {
+            display: none;
+        }
+        .wrapper_tarif_sale_on_start {
+            padding-top: 62px;
+        }
+        .heading_tarif_sale_on_start {
+            letter-spacing: 0em;
+            font-size: 17px;
+            line-height: 31px;
+        }
+        .subtitle_tarif_sale_on_start {
+            letter-spacing: 0em;
+            color: #424B5E;
+            padding: 34px 0px 30px 0px;
+            width: 100%;
+            line-height: 24px;
+        }
+        .cart_tarif_sale_on_start {
+            display: grid;
+            grid-template-columns: .1fr 1fr;
+            grid-column-gap: 20px;
+            align-items: start;
+        }
+        .blocks_tarif_sale_on_start {
+            grid-row-gap: 30px;
+        }
+        .futer_sale_on_start {
+            padding: 103px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 14px;
+        }
+        .futer_sale_on_start_main {
+            display: none;
+        }
+        .text_futer_sale_on_start {
+            padding-bottom: 13px;
+        }
+        .povg {
+            padding-top: 35px;
+        }
+        .collMe_futer_sale_on_start {
+            margin: 30px 0px 0px 0px;
+        }
+        .futer_sale_on_start_mobil {
+            display: block;
+        }
+    }

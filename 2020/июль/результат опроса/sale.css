@@ -1,0 +1,945 @@
+                                                                                            /* Сброс врапперов */
+                                                                                            
+                                                                                            body {
+                                                                                                min-width: 0 !important;
+                                                                                                background-color: white;
+                                                                                            }
+                                                                                            
+                                                                                            .wrapper-text p {
+                                                                                                margin-bottom: 0px;
+                                                                                            }
+                                                                                            
+                                                                                            .wrapper-text {
+                                                                                                font-size: 16px;
+                                                                                                color: #5E7491;
+                                                                                                line-height: normal;
+                                                                                                overflow: hidden;
+                                                                                            }
+                                                                                            
+                                                                                            .base-width {
+                                                                                                background-color: transparent;
+                                                                                                margin: 0;
+                                                                                                max-width: none;
+                                                                                                min-width: 0;
+                                                                                            }
+                                                                                            
+                                                                                            .catalogue {
+                                                                                                padding: 0;
+                                                                                            }
+                                                                                            
+                                                                                            .cms-page .col-middle {
+                                                                                                background: none;
+                                                                                                border: none;
+                                                                                                box-shadow: none;
+                                                                                                padding: 0 !important;
+                                                                                            }
+                                                                                            
+                                                                                            .catalogue h1 {
+                                                                                                display: none;
+                                                                                            }
+                                                                                            
+                                                                                            #content {
+                                                                                                margin-top: 0;
+                                                                                            }
+                                                                                            
+                                                                                            .wrapper-text ul li {
+                                                                                                list-style-type: none !important;
+                                                                                            }
+                                                                                            
+                                                                                            .wrapper-text table td {
+                                                                                                padding: 20px;
+                                                                                            }
+                                                                                            
+                                                                                            .simple-breadcrumbs {
+                                                                                                display: none !important;
+                                                                                            }
+                                                                                            /* --- */
+                                                                                            
+                                                                                            * {
+                                                                                                padding: 0;
+                                                                                                margin: 0
+                                                                                            }
+                                                                                            
+                                                                                            body {
+                                                                                                font-family: 'Open Sans', sans-serif;
+                                                                                                font-size: 16px;
+                                                                                                color: #5E7491;
+                                                                                                background-color: white;
+                                                                                                letter-spacing: 0.02px;
+                                                                                            }
+                                                                                            /* мой код */
+                                                                                            
+                                                                                            .text_h3 {
+                                                                                                max-width: 670px;
+                                                                                                width: 100%;
+                                                                                                font-size: 30px;
+                                                                                                line-height: 30px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingTop {
+                                                                                                padding-top: 20px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_wrapper {
+                                                                                                max-width: 1920px;
+                                                                                                margin: auto;
+                                                                                            }
+                                                                                            
+                                                                                            .line_heading {
+                                                                                                background: #5e7491;
+                                                                                                width: 150px;
+                                                                                                height: 3px;
+                                                                                                margin: 30px 0;
+                                                                                            }
+                                                                                            
+                                                                                            .futer_wrapper {
+                                                                                                max-width: 1366px;
+                                                                                                color: #5e7491;
+                                                                                            }
+                                                                                            
+                                                                                            .vibor {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 20px 1fr;
+                                                                                            }
+                                                                                            
+                                                                                            .content {
+                                                                                                width: 90%;
+                                                                                                margin: auto;
+                                                                                                padding: 80px 0 0px 0;
+                                                                                                max-width: 1315px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_bg {
+                                                                                                background-color: #ffffff;
+                                                                                                /* background-image: url('https://www.pulscen.ru/system/ckeditor_assets/pictures/182358/content_1664_2.png'); */
+                                                                                                background-repeat: no-repeat;
+                                                                                                background-position-x: right;
+                                                                                                background-position-y: bottom;
+                                                                                            }
+                                                                                            
+                                                                                            .blueBg {
+                                                                                                background: #f9c53466;
+                                                                                            }
+                                                                                            
+                                                                                            .futer_main a {
+                                                                                                text-decoration: none;
+                                                                                                color: #5e7491;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_wrapperHeading {
+                                                                                                background-image: url('https://www.pulscen.ru/system/ckeditor_assets/pictures/182685/content_offer_back_1_1.png');
+                                                                                                background-size: cover;
+                                                                                                background-repeat: no-repeat;
+                                                                                                padding: 100px 60px 100px 50px;
+                                                                                                border-radius: 3px;
+                                                                                                background-position-x: center;
+                                                                                                box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+                                                                                            }
+                                                                                            
+                                                                                            .buttons {
+                                                                                                display: flex;
+                                                                                                position: relative;
+                                                                                                overflow: hidden;
+                                                                                                width: fit-content;
+                                                                                            }
+                                                                                            
+                                                                                            .img_case {}
+                                                                                            
+                                                                                            .one_block_width_img {
+                                                                                                display: flex;
+                                                                                                padding-bottom: 0px;
+                                                                                            }
+                                                                                            
+                                                                                            .contentSection_oneWindow {
+                                                                                                padding: 120px 0;
+                                                                                                color: #4f5d6f;
+                                                                                            }
+                                                                                            
+                                                                                            .one_block_width_img .text_h1 {
+                                                                                                font-family: 'Russo One', sans-serif;
+                                                                                                max-width: 586px;
+                                                                                            }
+                                                                                            
+                                                                                            .blog_case {
+                                                                                                max-width: 962px;
+                                                                                                /* background: #F2F4F7; */
+                                                                                                border-radius: 3px;
+                                                                                                /* grid-template-columns: .8fr .1fr 1fr; */
+                                                                                                padding: 20px 0px 20px 0px;
+                                                                                                align-items: self-start;
+                                                                                                margin-top: 40px;
+                                                                                                font-size: 14px;
+                                                                                                grid-row-gap: 20px;
+                                                                                                height: fit-content;
+                                                                                                display: grid;
+                                                                                            }
+                                                                                            
+                                                                                            .wrapper_blog_case {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 85px 1fr;
+                                                                                            }
+                                                                                            
+                                                                                            .text_blog_case {}
+                                                                                            
+                                                                                            .text_h1 {
+                                                                                                font-size: 40px;
+                                                                                                line-height: 49px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_bg a {
+                                                                                                text-decoration: none;
+                                                                                            }
+                                                                                            
+                                                                                            .futer_main {
+                                                                                                background: #fde8ae;
+                                                                                                color: #FFF;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_heading {
+                                                                                                font-weight: 800;
+                                                                                                font-size: 50px;
+                                                                                                color: #FFFFFF;
+                                                                                                line-height: 68px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_subtitle {
+                                                                                                font-weight: 600;
+                                                                                                font-size: 20px;
+                                                                                                color: #FFFFFF;
+                                                                                                line-height: 33px;
+                                                                                                padding-top: 21px;
+                                                                                                max-width: 622px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_wrapperSlider {
+                                                                                                padding: 50px;
+                                                                                                background: #FFFFFF;
+                                                                                                box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.13);
+                                                                                                border-radius: 3px;
+                                                                                                padding: 50px 50px 65px 50px;
+                                                                                                margin-top: 50px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_sliderHeading {
+                                                                                                line-height: 27px;
+                                                                                                font-size: 20px;
+                                                                                                color: #5e7491;
+                                                                                                max-width: 100%;
+                                                                                                padding-bottom: 30px;
+                                                                                                font-weight: 600;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_sliderHeading2 {
+                                                                                                line-height: 20px;
+                                                                                                font-size: 20px;
+                                                                                                color: #5e7491;
+                                                                                                width: 412px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_sliderSubtitle {
+                                                                                                line-height: 27px;
+                                                                                                font-size: 16px;
+                                                                                                color: #5e7491;
+                                                                                            }
+                                                                                            
+                                                                                            .paragraph {
+                                                                                                display: grid;
+                                                                                                font-size: 16px;
+                                                                                                color: #5E7491;
+                                                                                                grid-template-columns: .1fr 4fr;
+                                                                                                grid-row-gap: 5px;
+                                                                                            }
+                                                                                            
+                                                                                            a:hover {
+                                                                                                color: #FFF;
+                                                                                            }
+                                                                                            
+                                                                                            .line_after {
+                                                                                                width: 40%;
+                                                                                                height: 2px;
+                                                                                                background: #a243e4;
+                                                                                                margin-bottom: 30px;
+                                                                                            }
+                                                                                            
+                                                                                            .img {
+                                                                                                text-align: center;
+                                                                                                border: 1px solid #8695AC;
+                                                                                                height: 99px;
+                                                                                                width: 0px;
+                                                                                                margin: auto;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_paddingLeft20 {
+                                                                                                padding-left: 20px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_paddingLeft40 {
+                                                                                                padding-left: 40px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingTop7 {
+                                                                                                padding-top: 7px;
+                                                                                            }
+                                                                                            
+                                                                                            #button_prev {
+                                                                                                color: #FFF;
+                                                                                                font-weight: bold;
+                                                                                            }
+                                                                                            
+                                                                                            #button_next {
+                                                                                                color: #FFF;
+                                                                                            }
+                                                                                            
+                                                                                            .size {
+                                                                                                width: 40px;
+                                                                                                height: 40px;
+                                                                                                border-radius: 3px;
+                                                                                                background: #a243e4;
+                                                                                                border: 1px solid #a243e4;
+                                                                                                box-sizing: border-box;
+                                                                                                display: grid;
+                                                                                                align-items: center;
+                                                                                                justify-items: center;
+                                                                                            }
+                                                                                            
+                                                                                            .sectionn_SliderTop {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 400px 2fr;
+                                                                                                grid-gap: 30px;
+                                                                                                align-items: center;
+                                                                                            }
+                                                                                            
+                                                                                            #button_prev {
+                                                                                                margin-left: 8px;
+                                                                                            }
+                                                                                            
+                                                                                            .click {
+                                                                                                color: #656565;
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 50px 50px;
+                                                                                                grid-column-gap: 20px;
+                                                                                                margin-bottom: 20px;
+                                                                                                justify-content: right;
+                                                                                            }
+                                                                                            
+                                                                                            .js_what {
+                                                                                                max-width: 710px;
+                                                                                                width: 100%;
+                                                                                            }
+                                                                                            
+                                                                                            .percent_blog_case {
+                                                                                                color: #a343e5;
+                                                                                                font-family: 'Russo One', sans-serif;
+                                                                                                letter-spacing: 2.2px;
+                                                                                                font-size: 20px;
+                                                                                            }
+                                                                                            
+                                                                                            .click:hover {
+                                                                                                cursor: pointer;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale {
+                                                                                                width: fit-content;
+                                                                                                display: inline-block !important;
+                                                                                                padding: 15px 35px !important;
+                                                                                                font-size: 16px !important;
+                                                                                                font-weight: 600;
+                                                                                                font-style: normal !important;
+                                                                                                white-space: nowrap !important;
+                                                                                                color: #FFF !important;
+                                                                                                background-color: #a343e5!important;
+                                                                                                border: 1px solid #a343e5 !important;
+                                                                                                border-radius: 3px !important;
+                                                                                                outline: 0 !important;
+                                                                                                cursor: pointer !important;
+                                                                                                -webkit-transition: background-color .2s, color .2s;
+                                                                                                transition: background-color .2s, color .2s;
+                                                                                                text-decoration: none !important;
+                                                                                                display: flex !important;
+                                                                                                align-items: center !important;
+                                                                                                justify-content: center !important;
+                                                                                                margin-right: 40px;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale a {
+                                                                                                color: #FFF !important;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale_white {
+                                                                                                width: fit-content;
+                                                                                                margin: 40px 0px 0px 0px;
+                                                                                                display: inline-block !important;
+                                                                                                padding: 15px 35px !important;
+                                                                                                font-size: 16px !important;
+                                                                                                font-weight: 600;
+                                                                                                font-style: normal !important;
+                                                                                                white-space: normal !important;
+                                                                                                border: 1px solid #548ec1!important;
+                                                                                                color: #548ec1!important;
+                                                                                                background-color: transparent !important;
+                                                                                                border-radius: 3px !important;
+                                                                                                outline: 0 !important;
+                                                                                                cursor: pointer !important;
+                                                                                                -webkit-transition: background-color .2s, color .2s;
+                                                                                                transition: background-color .2s, color .2s;
+                                                                                                text-decoration: none !important;
+                                                                                                display: flex !important;
+                                                                                                align-items: center !important;
+                                                                                                justify-content: center !important;
+                                                                                                overflow: hidden;
+                                                                                            }
+                                                                                            
+                                                                                            @keyframes move-light {
+                                                                                                0% {
+                                                                                                    transform: translateX(-6em) skewX(-45deg);
+                                                                                                }
+                                                                                                100% {
+                                                                                                    transform: translateX(25em) skewX(-45deg);
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale_white:hover:before {
+                                                                                                animation: move-light 0.7s;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale_white:before {
+                                                                                                content: '';
+                                                                                                position: absolute;
+                                                                                                top: 41px;
+                                                                                                left: 0px;
+                                                                                                width: 2.5em;
+                                                                                                height: -webkit-fill-available;
+                                                                                                background: #ffffff52;
+                                                                                                transform: translateX(-6em) skewX(-45deg);
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale_white a {
+                                                                                                color: #ffffff !important;
+                                                                                            }
+                                                                                            
+                                                                                            .line_pro {
+                                                                                                background: #0492de;
+                                                                                                height: 3px;
+                                                                                                margin: 60px 0;
+                                                                                                width: 200px;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale:hover {
+                                                                                                border: 1px solid #b871e7!important;
+                                                                                                color: #FFF !important;
+                                                                                                background-color: #b871e7 !important;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale_reseive {
+                                                                                                max-width: 220px;
+                                                                                                margin: 80px 0px 40px 0px;
+                                                                                                display: inline-block !important;
+                                                                                                padding: 15px 35px !important;
+                                                                                                font-size: 16px !important;
+                                                                                                font-weight: 600 !important;
+                                                                                                font-style: normal !important;
+                                                                                                white-space: nowrap !important;
+                                                                                                color: #FFF !important;
+                                                                                                background-color: #0492DE !important;
+                                                                                                border: 1px solid #0492DE !important;
+                                                                                                border-radius: 3px !important;
+                                                                                                outline: 0 !important;
+                                                                                                cursor: pointer !important;
+                                                                                                -webkit-transition: background-color .2s, color .2s;
+                                                                                                transition: background-color .2s, color .2s;
+                                                                                                text-decoration: none !important;
+                                                                                                display: flex !important;
+                                                                                                align-items: center !important;
+                                                                                                justify-content: center !important;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale_reseive:hover {
+                                                                                                border: 1px solid #0492DE !important;
+                                                                                                color: #0492DE !important;
+                                                                                                background-color: transparent !important;
+                                                                                            }
+                                                                                            
+                                                                                            .rascal_bottum_sale_contact {
+                                                                                                max-width: 124px;
+                                                                                                margin: 25px 0px 0px 0px;
+                                                                                                display: inline-block !important;
+                                                                                                /* padding: 0px 35px !important; */
+                                                                                                font-size: 16px !important;
+                                                                                                font-weight: 600;
+                                                                                                font-style: normal !important;
+                                                                                                white-space: nowrap !important;
+                                                                                                color: #0492DE !important;
+                                                                                                border-radius: 3px !important;
+                                                                                                outline: 0 !important;
+                                                                                                cursor: pointer !important;
+                                                                                                -webkit-transition: background-color .2s, color .2s;
+                                                                                                transition: background-color .2s, color .2s;
+                                                                                                text-decoration: none !important;
+                                                                                                display: flex !important;
+                                                                                                align-items: center !important;
+                                                                                                justify-content: center !important;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_collMe {
+                                                                                                border-bottom: 1px dashed #0492DE !important;
+                                                                                            }
+                                                                                            
+                                                                                            .slider_img {}
+                                                                                            
+                                                                                            .slider_img_rel {
+                                                                                                margin-top: 20px;
+                                                                                                margin-bottom: 20px;
+                                                                                                display: grid;
+                                                                                                justify-items: center;
+                                                                                            }
+                                                                                            
+                                                                                            #img_case0 {
+                                                                                                max-width: 100%;
+                                                                                            }
+                                                                                            
+                                                                                            .tools {
+                                                                                                font-size: 30px;
+                                                                                                color: #424B5E;
+                                                                                                font-family: 'Russo One', sans-serif;
+                                                                                            }
+                                                                                            
+                                                                                            .coll_me_futer {
+                                                                                                border-bottom: 1px dotted #545c6e;
+                                                                                            }
+                                                                                            
+                                                                                            .marginB60 {
+                                                                                                margin-bottom: 60px;
+                                                                                            }
+                                                                                            
+                                                                                            .bg_grey {
+                                                                                                background: rgb(243, 243, 243);
+                                                                                            }
+                                                                                            
+                                                                                            .sale_border-left {
+                                                                                                border-left: 4px solid #0492DE;
+                                                                                                margin-top: 20px;
+                                                                                                padding: 20px 0 20px 46px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_wrapperCard {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+                                                                                                grid-gap: 50px;
+                                                                                                margin-top: 50px;
+                                                                                                color: #5e7491;
+                                                                                            }
+                                                                                            
+                                                                                            .cards {
+                                                                                                background: #FFFCFC;
+                                                                                                box-shadow: 2px 4px 10px rgba(134, 149, 172, 0.4);
+                                                                                                border-radius: 3px;
+                                                                                                display: grid;
+                                                                                                grid-template-rows: auto 1fr 1fr;
+                                                                                                padding: 50px;
+                                                                                                grid-row-gap: 20px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_headingCard {
+                                                                                                font-size: 18px;
+                                                                                            }
+                                                                                            
+                                                                                            .spec {
+                                                                                                max-width: 50%;
+                                                                                                color: #5e7491;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_contact {
+                                                                                                background: #FFFFFF;
+                                                                                                box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+                                                                                                border-radius: 3px;
+                                                                                                padding: 50px;
+                                                                                                margin-top: 80px;
+                                                                                                color: #424B5E;
+                                                                                            }
+                                                                                            
+                                                                                            .questions {
+                                                                                                font-size: 20px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingTop25 {
+                                                                                                padding-top: 25px;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_gorizontImg {}
+                                                                                            
+                                                                                            .sale_gorizontImg {
+                                                                                                display: none;
+                                                                                            }
+                                                                                            
+                                                                                            .sale_size {
+                                                                                                max-width: 82%;
+                                                                                            }
+                                                                                            
+                                                                                            .text_h2 {
+                                                                                                font-size: 20px;
+                                                                                                color: #424b5e;
+                                                                                            }
+                                                                                            
+                                                                                            .coll_window_two {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 15px 1fr;
+                                                                                                padding-bottom: 10px;
+                                                                                            }
+                                                                                            
+                                                                                            .coll_window_two_end {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 15px 1fr;
+                                                                                            }
+                                                                                            
+                                                                                            .vibor_blog_icon {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+                                                                                                grid-gap: 30px;
+                                                                                                box-sizing: border-box;
+                                                                                            }
+                                                                                            
+                                                                                            .vibor_icon {
+                                                                                                display: grid;
+                                                                                                grid-template-columns: 0.2fr 1fr;
+                                                                                                padding: 20px;
+                                                                                                box-sizing: border-box;
+                                                                                                grid-column-gap: 20px;
+                                                                                            }
+                                                                                            /* .vibor_blog_icon img {
+                                                                                                width: 40px;
+                                                                                            } */
+                                                                                            
+                                                                                            .vibor_blog {
+                                                                                                padding-left: 50px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingB10 {
+                                                                                                padding-bottom: 10px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingB15 {
+                                                                                                padding-bottom: 15px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingB25 {
+                                                                                                padding-bottom: 25px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingB40 {
+                                                                                                padding-bottom: 40px;
+                                                                                            }
+                                                                                            
+                                                                                            .paddingB60 {
+                                                                                                padding-bottom: 60px;
+                                                                                            }
+                                                                                            
+                                                                                            .coll_window_three {
+                                                                                                display: flex;
+                                                                                                justify-content: space-around;
+                                                                                            }
+                                                                                            
+                                                                                            .imgSocSeti img {
+                                                                                                width: 500px;
+                                                                                            }
+                                                                                            
+                                                                                            .zametka {
+                                                                                                background: rgba(231, 242, 255, 0.62);
+                                                                                                padding: 40px;
+                                                                                                border-left: 4px solid #0492de;
+                                                                                                font-style: italic;
+                                                                                                font-size: 18px;
+                                                                                                letter-spacing: 0.04px;
+                                                                                            }
+                                                                                            
+                                                                                            .textSocSeti {
+                                                                                                width: 500px;
+                                                                                                padding-left: 40px;
+                                                                                                padding-top: 50px;
+                                                                                                line-height: 25px;
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 1460px) {
+                                                                                                .sale_bg {
+                                                                                                    background-image: none;
+                                                                                                }
+                                                                                                .cards {
+                                                                                                    grid-template-rows: auto 1fr auto;
+                                                                                                }
+                                                                                                .imgSocSeti img {
+                                                                                                    width: 37vw;
+                                                                                                }
+                                                                                                .img_case {
+                                                                                                    width: 50vw;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 1340px) {
+                                                                                                .sale_size {
+                                                                                                    max-width: 100%;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 1200px) {
+                                                                                                .sale_heading {
+                                                                                                    max-width: 64%;
+                                                                                                    font-size: 35px;
+                                                                                                    line-height: 53px;
+                                                                                                }
+                                                                                                .sale_subtitle {
+                                                                                                    max-width: 57%;
+                                                                                                    padding-bottom: 23px;
+                                                                                                    padding-top: 15px;
+                                                                                                }
+                                                                                                .sale_wrapperHeading {
+                                                                                                    padding: 60px 60px 60px 60px;
+                                                                                                }
+                                                                                                .img {
+                                                                                                    display: none;
+                                                                                                }
+                                                                                                .sale_gorizontImg {
+                                                                                                    display: block;
+                                                                                                    height: 2px;
+                                                                                                    background: #5e7491;
+                                                                                                    width: 50%;
+                                                                                                    margin: 30px auto;
+                                                                                                }
+                                                                                                .blog_case {
+                                                                                                    max-width: 962px;
+                                                                                                    border-radius: 3px;
+                                                                                                    grid-template-columns: 1fr;
+                                                                                                    padding: 40px 20px 40px 0px;
+                                                                                                    align-items: self-start;
+                                                                                                    margin-top: 20px;
+                                                                                                    grid-gap: 20px;
+                                                                                                    display: grid;
+                                                                                                }
+                                                                                                .sale_paddingLeft20 {
+                                                                                                    padding-left: 40px;
+                                                                                                }
+                                                                                                .size {
+                                                                                                    margin-left: 0px;
+                                                                                                }
+                                                                                                .sectionn_SliderTop {
+                                                                                                    grid-column-gap: 20px;
+                                                                                                }
+                                                                                                .text_h3 {
+                                                                                                    font-size: 20px;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 1080px) {
+                                                                                                .contentSection_oneWindow {
+                                                                                                    padding: 20px 0 50px 0;
+                                                                                                }
+                                                                                                .sale_wrapperSlider {
+                                                                                                    margin-top: 0px;
+                                                                                                }
+                                                                                                .line_pro {
+                                                                                                    background: #0492de;
+                                                                                                    height: 3px;
+                                                                                                    margin: 30px 0;
+                                                                                                    width: 200px;
+                                                                                                }
+                                                                                                .rascal_bottum_sale_white {
+                                                                                                    width: auto;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 950px) {
+                                                                                                .sale_headingCard {
+                                                                                                    font-size: 15px;
+                                                                                                }
+                                                                                                body .cards {
+                                                                                                    font-size: 14px;
+                                                                                                }
+                                                                                                .spec {
+                                                                                                    max-width: 100%;
+                                                                                                }
+                                                                                                .questions {
+                                                                                                    font-size: 16px;
+                                                                                                }
+                                                                                                .sizeR {
+                                                                                                    font-size: 14px;
+                                                                                                }
+                                                                                                .rascal_bottum_sale_contact {
+                                                                                                    max-width: 109px;
+                                                                                                    font-size: 14px !important;
+                                                                                                }
+                                                                                                .sectionn_SliderTop {
+                                                                                                    grid-template-columns: 1fr;
+                                                                                                }
+                                                                                                .slider_img_rel {
+                                                                                                    margin-top: 0px;
+                                                                                                    margin-bottom: 0px;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 850px) {
+                                                                                                .cards {
+                                                                                                    padding-bottom: 40px;
+                                                                                                }
+                                                                                                .sale_heading {
+                                                                                                    line-height: 41px;
+                                                                                                    font-size: 30px;
+                                                                                                    max-width: 63%;
+                                                                                                }
+                                                                                                .sale_subtitle {
+                                                                                                    font-size: 18px;
+                                                                                                    max-width: 57%;
+                                                                                                    padding-bottom: 12px;
+                                                                                                    padding-top: 15px;
+                                                                                                }
+                                                                                                .sale_wrapperHeading {
+                                                                                                    padding: 60px 20px 60px 20px;
+                                                                                                }
+                                                                                                .sale_wrapperSlider {
+                                                                                                    padding: 50px 20px 50px 20px;
+                                                                                                }
+                                                                                                .paragraph {
+                                                                                                    font-size: 14px;
+                                                                                                }
+                                                                                                .sale_border-left {
+                                                                                                    padding-left: 20px;
+                                                                                                }
+                                                                                                .cards {
+                                                                                                    padding: 40px 20px 40px 20px;
+                                                                                                }
+                                                                                                .sale_contact {
+                                                                                                    padding: 20px;
+                                                                                                }
+                                                                                                body {
+                                                                                                    font-size: 16px;
+                                                                                                }
+                                                                                                .spec {
+                                                                                                    font-size: 14px;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 780px) {
+                                                                                                .sale_wrapperCard {
+                                                                                                    grid-template-columns: 1fr;
+                                                                                                    grid-column-gap: 0px;
+                                                                                                }
+                                                                                                .sale_wrapper {
+                                                                                                    padding-bottom: 50px;
+                                                                                                }
+                                                                                                .coll_window_three {
+                                                                                                    flex-direction: column;
+                                                                                                }
+                                                                                                .textSocSeti {
+                                                                                                    padding-left: 0px;
+                                                                                                    width: 100%;
+                                                                                                    padding-top: 20px;
+                                                                                                }
+                                                                                                .imgSocSeti img {
+                                                                                                    width: 250px;
+                                                                                                }
+                                                                                                .paddingB60 {
+                                                                                                    padding-bottom: 30px;
+                                                                                                }
+                                                                                                .content {
+                                                                                                    padding: 50px 0 0 0;
+                                                                                                }
+                                                                                                .coll_window_three {
+                                                                                                    font-size: 14px;
+                                                                                                }
+                                                                                                .sale_border-left {
+                                                                                                    margin-top: 50px;
+                                                                                                }
+                                                                                                .sale_contact {
+                                                                                                    margin-top: 50px;
+                                                                                                }
+                                                                                                .zametka {
+                                                                                                    font-size: 14px;
+                                                                                                }
+                                                                                                .rascal_bottum_sale_reseive {
+                                                                                                    margin: 50px 0px 30px 0px;
+                                                                                                    font-size: 14px !important;
+                                                                                                }
+                                                                                                .rascal_bottum_sale {
+                                                                                                    width: auto;
+                                                                                                }
+                                                                                                .buttons {
+                                                                                                    display: block;
+                                                                                                }
+                                                                                                .rascal_bottum_sale {
+                                                                                                    margin-right: 0px;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 700px) {
+                                                                                                .sectionn_SliderTop {
+                                                                                                    grid-template-columns: 1fr;
+                                                                                                    grid-gap: 20px;
+                                                                                                }
+                                                                                                .click {
+                                                                                                    grid-template-columns: .1fr 1fr;
+                                                                                                    grid-column-gap: 10px;
+                                                                                                }
+                                                                                                .bg_grey {
+                                                                                                    background: #FFF;
+                                                                                                }
+                                                                                                .vibor_blog {
+                                                                                                    padding-left: 0px;
+                                                                                                }
+                                                                                                .vibor_blog_icon {
+                                                                                                    grid-gap: 0px;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 660px) {
+                                                                                                .sale_heading {
+                                                                                                    font-size: 30px;
+                                                                                                    max-width: 100%;
+                                                                                                }
+                                                                                                .sale_subtitle {
+                                                                                                    max-width: 100%;
+                                                                                                }
+                                                                                                .sale_wrapperHeading {
+                                                                                                    background: #0093df;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 460px) {
+                                                                                                .sale_wrapperHeading {
+                                                                                                    padding: 40px 20px 40px 20px;
+                                                                                                }
+                                                                                                .sale_wrapperSlider {
+                                                                                                    padding: 20px 20px 20px 20px;
+                                                                                                }
+                                                                                                .sale_heading {
+                                                                                                    font-size: 20px;
+                                                                                                    line-height: 27px;
+                                                                                                }
+                                                                                                .sale_subtitle {
+                                                                                                    font-size: 16px;
+                                                                                                    line-height: 27px;
+                                                                                                    padding-bottom: 0px;
+                                                                                                }
+                                                                                                .sale_sliderHeading {
+                                                                                                    font-size: 16px;
+                                                                                                }
+                                                                                                .sale_sliderSubtitle {
+                                                                                                    font-size: 16px;
+                                                                                                }
+                                                                                                .sale_sliderHeading2 {
+                                                                                                    font-size: 14px;
+                                                                                                }
+                                                                                                .rascal_bottum_sale {
+                                                                                                    white-space: normal !important;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            @media (max-width: 460px) {
+                                                                                                .sizeWrite {
+                                                                                                    max-width: 67%;
+                                                                                                }
+                                                                                                .img_case {
+                                                                                                    width: 250px;
+                                                                                                }
+                                                                                            }
+                                                                                            
+                                                                                            .paddingB0 {
+                                                                                                padding-bottom: 0px;
+                                                                                            }
+                                                                                            /* <div class="rascal_bottum_sale ab-order js-apress-order-button js-orders-callback-link" data-button-type="order_callback" data-company="99572059 " data-company-id="99572059 " data-company-name="Пульс цен Онлайн" data-company-name-rest="" data-company-url="https://help.pulscen.ru/" data-params="{&quot;company_id&quot;:&quot;99572059 &quot;}" data-statistics="1" data-type="callback">Оставить заявку на консультацию</div></div></div></div><section class="futer_main"><div class="futer_wrapper"><div class="contact"><p class="heading_futer"><b>Остались вопросы?</b></p><div class="col_cintact_futer"><div class="massenger_futer"><img src="https://www.pulscen.ru/system/ckeditor_assets/pictures/199186/content_.png." alt=""><p class="numder_futer fat">+7 929 269 00 13</p></div><div class="note_futer">- WhatsApp или Viber</div></div><div class="col_cintact_futer"><div class="massenger_futer"><img src="https://www.pulscen.ru/system/ckeditor_assets/pictures/199185/content_.png." alt=""><p class="numder_futer fat">8 800 234 43 10</p></div><div class="note_futer">- бесплатно на территории РФ</div></div><div class="pointer_futer ab-order js-apress-order-button js-orders-callback-link" data-button-type="order_callback" data-company="99572059 " data-company-id="99572059 " data-company-name="Пульс цен Онлайн" data-company-name-rest="" data-company-url="https://help.pulscen.ru/" data-params="{&quot;company_id&quot;:&quot;99572059 &quot;}" data-statistics="1" data-type="callback"><span class="coll_me_futer"><b>Позвоните мне</b></span></div></div><div class="agreement"><a target="_blank" href="https://ekb.pulscen.ru/about/terms"><p class="text_futter">Пользовательское соглашение</p></a><a target="_blank" href="https://ekb.pulscen.ru/about/privacy"><p class="text_futter">Политика конфиденциальности</p></a></div></div></section> */

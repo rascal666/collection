@@ -1,0 +1,25 @@
+mixin list(photo, name, star, branch, city, linkCompany, nameCompany, text )
+	.root-reviews__item-image
+		img.review__img(src=photo style="width: 78px; height: 87px")
+	div
+		.root-reviews__item-header
+			.root-reviews__item-title=name
+			.root-reviews__item-subtitle=branch
+		a.root-reviews__item-company-name(href=linkCompany target="_blank")=nameCompany
+		div=text
+
+
+
+html(lang="en")
+	head
+		title= pageTitle
+		style
+			include style.css
+	body
+		- var dataTTr = require('./baseData.json')
+
+
+	each dataItem in dataTTr.kazan.slice(dataTTr.kazan.length - 6)
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+

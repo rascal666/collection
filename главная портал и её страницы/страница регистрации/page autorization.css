@@ -1,0 +1,1782 @@
+body {
+  min-width: 0 !important;
+  background-color: white;
+}
+
+.wrapper-text p {
+  margin-bottom: 0px;
+}
+
+.wrapper-text {
+  color: #5e7491;
+  line-height: normal;
+  overflow: hidden;
+}
+
+.base-width {
+  background-color: transparent;
+  margin: 0;
+  max-width: none;
+  min-width: 0;
+}
+
+.catalogue {
+  padding: 0;
+}
+
+.cms-page .col-middle {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0 !important;
+}
+
+.catalogue h1 {
+  display: none;
+}
+
+#content {
+  margin-top: 0;
+}
+
+.wrapper-text ul li {
+  list-style-type: none !important;
+}
+
+.wrapper-text table td {
+  padding: 20px;
+}
+
+.simple-breadcrumbs {
+  display: none !important;
+}
+
+/* --- */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  border-bottom: 0.1px solid #c7dbff;
+  line-height: 1px;
+  padding: 0;
+  margin: 0px 0 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.pseudoLinkk {
+  cursor: pointer;
+}
+
+.heading_stages_pageAutorization {
+  display: block;
+}
+
+.heading_stages_pageAutorizationNobile {
+  display: none;
+}
+
+.BgTop_mainWrapper_pageAutorization {
+  background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+      no-repeat 100% 81% / 70%,
+    /* низ квадратики */
+      url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+      no-repeat 30% bottom / 100%,
+    /* низ точки */
+      url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+      no-repeat 100% 0px / 80%,
+    /* правый верхний угол */
+      url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+      no-repeat center -1% / 1920px,
+    /* целая синяя плашка */ /* правый верхний угол */
+      url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+      no-repeat center bottom / 1920px,
+    /* низ синяя плашка */
+      url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+      no-repeat center 99% / 1920px;
+  /* низ синяя плашка2 */
+  max-width: 1920px;
+  margin: auto;
+}
+
+.BgBotton_mainWrapper_pageAutorization {
+  max-width: 2500px;
+}
+
+.mainWrapper_pageAutorization {
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-row-gap: 134px;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1366px;
+  padding-top: 0px;
+  padding-bottom: 132px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.rascal_Fsize26 {
+  font-size: 26px;
+}
+
+.rascal_Fsize20 {
+  font-size: 20px;
+}
+
+/* ---------------logo_pageAutorization----------- */
+
+.logo_pageAutorization {
+  margin-top: 79px;
+}
+
+/* -----------heading_pageAutorization---------- */
+
+.heading_pageAutorization_br {
+  font-family: "Russo One", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 110px;
+  line-height: 59px;
+}
+
+.heading_pageAutorization {
+  display: none;
+}
+
+.subtitle_pageAutorization {
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  width: 30%;
+  padding-top: 33px;
+}
+
+.button_pageAutorization {
+  max-width: 300px;
+  margin: 58px 0px 0px 0px;
+  display: inline-block !important;
+  padding: 20px 57px !important;
+  font-size: 16px !important;
+  font-weight: bold;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: #5e7491 !important;
+  background-color: rgb(255, 255, 255) !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+  text-decoration: none !important;
+  letter-spacing: 0.1em;
+  display: grid;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.insideButton {
+  background: #ffcd50;
+  max-width: 336px;
+  height: 64px;
+  position: relative;
+  transform: translate(3%, -84%);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+/* -----------statistic_pageAutorization---------- */
+
+.img_statistic_pageAutorization_incrise {
+  width: 73%;
+}
+
+.img_statistic_pageAutorization_incrise1 {
+  width: 100%;
+}
+
+.wrapper_statistic_pageAutorization {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 54px;
+  margin-top: 67px;
+  max-width: 1366px;
+}
+
+.block_statistic_pageAutorization {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.number_statistic_pageAutorization {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #424b5e;
+}
+
+.text_statistic_pageAutorization {
+  letter-spacing: 0.03em;
+  color: #5e7491;
+}
+
+.textZona_statistic_pageAutorization {
+  padding: 30px 30px 30px 19px;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-row-gap: 10px;
+}
+
+.img_statistic_pageAutorization {
+  align-self: center;
+}
+
+.more {
+  /* line-height: 19px; */
+  letter-spacing: 0.1em;
+  color: #5e7491;
+  font-size: 16px;
+  text-transform: initial;
+}
+
+/* -----------pipe_rolling_pageAutorization---------- */
+
+.wrapper_pipe_rolling_pageAutorization {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 12vw;
+  justify-items: baseline;
+  align-items: center;
+  margin-top: 27px;
+}
+
+.textZona_pipe_rolling_pageAutorization {
+  display: grid;
+  grid-template-columns: 0.01fr 1fr;
+  align-items: center;
+}
+
+.text_pipe_rolling_pageAutorization {
+  padding-left: 8px;
+  letter-spacing: 0.04em;
+  color: #5e7491;
+}
+
+.collText_pipe_rolling_pageAutorization {
+  display: grid;
+  grid-row-gap: 20px;
+  margin-top: 104px;
+}
+
+.button_pipe_rolling_pageAutorization {
+  max-width: 300px;
+  margin: 60px 0px 0px 0px;
+  display: inline-block !important;
+  padding: 20px 54px !important;
+  font-size: 18px !important;
+  font-weight: bold;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: #fff !important;
+  background-color: #ffcd50 !important;
+  border: 1px solid #ffcd50 !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  cursor: pointer !important;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+  text-decoration: none !important;
+  text-shadow: 2px 1px 1px rgba(94, 116, 145, 0.7);
+  letter-spacing: 0.13em;
+  display: grid;
+  text-align: center;
+}
+
+/* -----------popularCategories_pageAutorization---------- */
+
+.blocks_popularCategories_pageAutorization {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  align-items: end;
+}
+
+.construction_popularCategories_pageAutorization {
+  height: 125px;
+  grid-column: 1/4;
+  border-radius: 10px;
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/187383/content_group_58.png")
+    no-repeat;
+}
+
+.img_popularCategories_pageAutorization {
+  margin-top: -39px;
+  margin-left: 20px;
+  grid-row-gap: 10px;
+}
+
+.textZona_construction_popularCategories_pageAutorization {
+  grid-column: 4/7;
+  padding-bottom: 10px;
+}
+
+.materials_popularCategories_pageAutorization {
+  grid-column: 1/3;
+  height: 125px;
+  border-radius: 10px;
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/187384/content_group_58_1.png")
+    no-repeat;
+}
+
+.img_materials_popularCategories_pageAutorization {
+  margin-top: -6px;
+  margin-left: 20px;
+}
+
+.materials_textZona_popularCategories_pageAutorization {
+  grid-column: 3/4;
+  padding-bottom: 10px;
+}
+
+.borderBotton_materials_popularCategories_pageAutorization {
+  border-bottom: 2px solid #0277bd;
+  max-width: 462px;
+  height: 1px;
+  position: relative;
+  left: 143px;
+  width: 400%;
+  top: 124px;
+  height: 1px;
+}
+
+.equipment_popularCategories_pageAutorization {
+  grid-column: 4/6;
+  height: 125px;
+  border-radius: 10px;
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/187385/content_group_58_2.png")
+    no-repeat;
+}
+
+.img_equipment_popularCategories_pageAutorization {
+  margin-left: 20px;
+}
+
+.borderBotton_equipment_popularCategories_pageAutorization {
+  border-bottom: 2px solid #0277bd;
+  max-width: 462px;
+  height: 1px;
+  position: relative;
+  left: 171px;
+  width: 300%;
+  top: 124px;
+  height: 1px;
+}
+
+.text_popularCategories_pageAutorization {
+  grid-column: 6/7;
+}
+
+.transport_popularCategories_pageAutorization {
+  grid-column: 1/2;
+  height: 125px;
+  border-radius: 10px;
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/187386/content_group_58_3.png")
+    no-repeat;
+}
+
+.transport_textZona_popularCategories_pageAutorization {
+  grid-column: 2/3;
+  padding-bottom: 10px;
+}
+
+.borderBotton_transport_popularCategories_pageAutorization {
+  border-bottom: 2px solid #0277bd;
+  max-width: 400px;
+  height: 1px;
+  position: relative;
+  left: 0px;
+  width: 194%;
+  top: 125px;
+  height: 1px;
+}
+
+.village_popularCategories_pageAutorization {
+  grid-column: 3/4;
+  height: 125px;
+  border-radius: 10px;
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/187387/content_group_58_4.png")
+    no-repeat;
+}
+
+.village_textZona_popularCategories_pageAutorization {
+  grid-column: 4/5;
+  padding-bottom: 10px;
+}
+
+.borderBotton_village_popularCategories_pageAutorization {
+  border-bottom: 2px solid #0277bd;
+  max-width: 400px;
+  height: 1px;
+  position: relative;
+  left: 0px;
+  width: 200%;
+  top: 125px;
+  height: 1px;
+}
+
+.products_popularCategories_pageAutorization {
+  grid-column: 5/6;
+  height: 125px;
+  border-radius: 10px;
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/187388/content_group_58_5.png")
+    no-repeat;
+}
+
+.products_textZona_popularCategories_pageAutorization {
+  grid-column: 6/7;
+  padding-bottom: 10px;
+}
+
+.borderBotton_products_popularCategories_pageAutorization {
+  border-bottom: 2px solid #0277bd;
+  max-width: 449px;
+  height: 1px;
+  position: relative;
+  left: 0px;
+  width: 226%;
+  top: 125px;
+  height: 1px;
+}
+
+.headingMain_popularCategories_pageAutorization {
+  font-family: "Russo One", sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #424b5e;
+  padding-bottom: 45px;
+}
+
+.heading_popularCategories_pageAutorization {
+  /* line-height: 19px; */
+  letter-spacing: 0.03em;
+  color: #424b5e;
+}
+
+.subtitel_popularCategories_pageAutorization {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #5e7491;
+  padding-bottom: 60px;
+}
+
+.text_popularCategories_pageAutorization {
+  font-style: normal;
+  font-weight: normal;
+  /* line-height: 19px; */
+  letter-spacing: 0.03em;
+  color: #5e7491;
+  padding-top: 17px;
+  padding-bottom: 12px;
+}
+
+.equipment_textZona_popularCategories_pageAutorization {
+  padding-bottom: 10px;
+}
+
+.borderBotton_construction_popularCategories_pageAutorization {
+  border-bottom: 2px solid #0277bd;
+  max-width: 775px;
+  position: relative;
+  left: 283px;
+  width: 200%;
+  display: block;
+  top: 123px;
+  height: 1px;
+}
+
+.poptlarRubrics_wrapper_popularCategories_pageAutorization {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.button_statistic_popularCategories_pageAutorization {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+}
+
+.wrapper_popularCategories_pageAutorization .button_rate_pageAutorization {
+  padding: 0px 0px !important;
+  margin: 0px 0px 0px 0px;
+}
+.wrapper_popularCategories_pageAutorization .insideButton3 {
+  background: #f4c44d;
+  max-width: 277px;
+  width: 100%;
+  position: relative;
+  transform: translate(0%, -231%);
+  z-index: 1;
+  border-radius: 3px;
+  margin-top: 16px;
+}
+
+/* -----------stages_pageAutorization---------- */
+
+.block_stages_stages_pageAutorization {
+  display: grid;
+  grid-row-gap: 30px;
+}
+
+.wrapper_stages_pageAutorization {
+  display: grid;
+  grid-template-columns: 1.17fr 1fr;
+}
+
+.coll_stages_pageAutorization {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+
+.doshed_stages_pageAutorization {
+  min-height: 355px;
+  position: absolute;
+  border-left: 1px dashed #ffce4f;
+  margin-left: 27px;
+  margin-top: 2px;
+}
+
+.icon_stages_pageAutorization {
+  display: grid;
+  justify-items: center;
+}
+
+.z-index1_stages_pageAutorization {
+  z-index: 1;
+}
+
+.text_stages_pageAutorization {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #5e7491;
+}
+
+.heading_stages_pageAutorization {
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: #424b5e;
+  padding-bottom: 35px;
+  width: 88%;
+  padding-top: 23px;
+  font-family: "Russo One", sans-serif;
+}
+
+.img_stages_pageAutorization {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+/* -----------stages_pageAutorization---------- */
+
+.width_blockBatton {
+  height: 14.5vh;
+}
+
+.wrapper_blockAutorization_pageAutorization {
+  display: grid;
+  justify-items: center;
+}
+
+.text_blockAutorization_pageAutorization {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #5e7491;
+}
+
+.button_blockAutorization_pageAutorization {
+  max-width: 300px;
+  margin: 65px 0px 0px 0px;
+  display: inline-block !important;
+  padding: 21px 72px !important;
+  font-size: 15px !important;
+  font-weight: bold;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #0277bd !important;
+  border: 1px solid #0277bd !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+  text-decoration: none !important;
+  letter-spacing: 0.1em;
+  display: grid;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.insideButton2 {
+  background: #ffcd50;
+  max-width: 351px;
+  height: 67px;
+  position: relative;
+  transform: translate(4%, -85%);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+/* -----------rate_pageAutorization---------- */
+
+.heading_rate_pageAutorization {
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: #424b5e;
+  padding-bottom: 64px;
+  width: 380px;
+  font-family: "Russo One", sans-serif;
+}
+
+.blocks_rate_pageAutorization {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 46px;
+}
+
+.block_rate_pageAutorization {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 45px;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 0.1fr 1fr;
+  grid-row-gap: 35px;
+}
+
+.rate_pageAutorization_collMobile {
+  grid-template-rows: 0.4fr 1fr;
+  display: grid;
+  justify-items: center;
+}
+
+.blockHeading_rate_pageAutorization {
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #424b5e;
+}
+
+.subtite_rate_pageAutorization {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #5e7491;
+}
+
+.button_rate_pageAutorization {
+  max-width: 600px;
+  margin: 60px 0px 0px 0px;
+  display: inline-block !important;
+  padding: 17px 0px !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: #0277bd !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  cursor: pointer !important;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+  text-decoration: none !important;
+  letter-spacing: 0.1em;
+  display: grid;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.insideButton3 {
+  background: #f4c44d;
+  max-width: 492px;
+  height: 11px;
+  position: relative;
+  transform: translate(0%, -231%);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+/* -----------control_pageAutorization---------- */
+
+.heading_control_pageAutorization {
+  font-family: "Russo One", sans-serif;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-bottom: 80px;
+  width: 341px;
+}
+
+.blocks_control_pageAutorization {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1393px;
+}
+
+.text_control_pageAutorization {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-top: 19px;
+}
+
+.text_control_pageAutorization2 {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.text_control_pageAutorization3 {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-top: 19px;
+  width: 200px;
+}
+
+.block_control_pageAutorization {
+  display: grid;
+  grid-template-rows: 0.1fr 1fr;
+}
+
+/* -----------blockAutorizatin2_pageAutorization---------- */
+
+.height_battin2 {
+  max-height: 80px;
+}
+
+.button_blockAutorization2_pageAutorization {
+  max-width: 300px;
+  margin: 0px 0px 0px 0px;
+  display: inline-block !important;
+  padding: 20px 54px !important;
+  font-size: 16px !important;
+  font-weight: bold;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: #5e7491 !important;
+  background-color: rgb(255, 255, 255) !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+  text-decoration: none !important;
+  letter-spacing: 0.1em;
+  display: grid;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.insideButton4 {
+  background: #f4c44d;
+  max-width: 547px;
+  height: 62px;
+  position: relative;
+  transform: translate(4%, -78%);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.text_blockAutorizatin2_pageAutorization {
+  /* line-height: 19px; */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-top: 19px;
+  max-width: 511px;
+  width: 100%;
+  justify-self: baseline;
+}
+
+.wrapper_blockAutorizatin2_pageAutorization {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  justify-items: center;
+}
+
+/* -----------futter_pageAutorization---------- */
+
+.contactItems_futter_pageAutorization {
+  grid-template-columns: 1fr 2fr;
+  justify-self: flex-start;
+  grid-column-gap: 12px;
+  display: grid;
+}
+
+.contact_futter_pageAutorization {
+  display: grid;
+  grid-gap: 12px;
+}
+
+.text_futter_pageAutorization {
+  /* line-height: 18px; */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.PLeftContact {
+  padding-left: 10px;
+}
+
+.wigthColl {
+  width: 13px;
+}
+
+.collMe_futter_pageAutorization_pageAutorization {
+  max-width: 300px;
+  margin: 0px 0px 0px 0px;
+  display: inline-block !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: #ffffff !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  cursor: pointer !important;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+  text-decoration: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.collMeborder_futter_pageAutorization_pageAutorization {
+  border-bottom: 1px dashed #ffffff;
+}
+
+.wrapper_futter_pageAutorization {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+.politika_futter_pageAutorization {
+  padding-top: 10px;
+}
+
+.link_futter_pageAutorization {
+  font-weight: bold;
+  font-size: 13px;
+  /* line-height: 28px; */
+  letter-spacing: 0.05em;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.hr_futter_pageAutorization {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1440px) {
+  .BgTop_mainWrapper_pageAutorization {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+        no-repeat 100% 81% / 70%,
+      /* низ квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+        no-repeat 30% bottom / 100%,
+      /* низ точки */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+        no-repeat 300px 0px / 97%,
+      /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center -1% / 1920px,
+      /* целая синяя плашка */ /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center bottom / 1920px,
+      /* низ синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 98% / 1920px;
+    /* низ синяя плашка2 */
+    max-width: 1920px;
+    margin: auto;
+  }
+  .doshed_stages_pageAutorization {
+    margin-left: 2.11vw;
+  }
+  .wrapper_stages_pageAutorization {
+    grid-template-columns: 1fr 1.2fr;
+  }
+  .mainWrapper_pageAutorization {
+    width: 90%;
+  }
+  .logo_pageAutorization {
+    margin-top: 60px;
+  }
+  .logoImg_pageAutorization {
+    width: 150px;
+  }
+  .heading_pageAutorization_br {
+    display: none;
+  }
+  .heading_pageAutorization {
+    display: block;
+    font-size: 2.6vw;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 104px;
+    line-height: 59px;
+  }
+}
+
+@media (max-width: 1400px) {
+  /* -----------popularCategories_pageAutorization---------- */
+  .blocks_popularCategories_pageAutorization {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    align-items: end;
+  }
+  .borderBotton_construction_popularCategories_pageAutorization {
+    border-bottom: 2px solid #0277bd;
+    max-width: 775px;
+    position: relative;
+    left: 0px;
+    width: 200%;
+    display: block;
+    top: 127px;
+  }
+  .construction_popularCategories_pageAutorization {
+    height: 125px;
+    grid-column: 1/3;
+    border-radius: 10px;
+    background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/189159/content_group_59.png")
+      no-repeat center bottom;
+  }
+  .img_popularCategories_pageAutorization {
+    margin-top: -39px;
+    margin-left: 20px;
+  }
+  .textZona_construction_popularCategories_pageAutorization {
+    grid-column: 3/7;
+    margin-left: -50px;
+  }
+  .materials_popularCategories_pageAutorization {
+    grid-column: 1/2;
+    height: 125px;
+    border-radius: 10px;
+    background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/189160/content_group_59_1.png")
+      no-repeat center bottom;
+  }
+  .img_materials_popularCategories_pageAutorization {
+    margin-top: -6px;
+    margin-left: 20px;
+  }
+  .materials_textZona_popularCategories_pageAutorization {
+    grid-column: 2/3;
+  }
+  .borderBotton_materials_popularCategories_pageAutorization {
+    border-bottom: 2px solid #0277bd;
+    max-width: 462px;
+    height: 1px;
+    position: relative;
+    left: 0;
+    width: 400%;
+    top: 125px;
+  }
+  .equipment_popularCategories_pageAutorization {
+    grid-column: 4/5;
+    height: 125px;
+    border-radius: 10px;
+    background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/189083/content_group_60.png")
+      no-repeat bottom;
+  }
+  .img_equipment_popularCategories_pageAutorization {
+    margin-left: 20px;
+  }
+  .borderBotton_equipment_popularCategories_pageAutorization {
+    border-bottom: 2px solid #0277bd;
+    max-width: 534px;
+    height: 1px;
+    position: relative;
+    left: 0px;
+    width: 300%;
+    top: 125px;
+  }
+  .text_popularCategories_pageAutorization {
+    grid-column: 5/7;
+  }
+  .transport_popularCategories_pageAutorization {
+    grid-column: 1/2;
+    height: 125px;
+    border-radius: 10px;
+    background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/189084/content_group_58.png")
+      no-repeat center bottom;
+  }
+  .transport_textZona_popularCategories_pageAutorization {
+    grid-column: 2/3;
+    margin-left: -50px;
+  }
+  .borderBotton_transport_popularCategories_pageAutorization {
+    border-bottom: 2px solid #0277bd;
+    max-width: 400px;
+    height: 1px;
+    position: relative;
+    left: 0px;
+    width: 194%;
+    top: 125px;
+  }
+  .village_popularCategories_pageAutorization {
+    grid-column: 3/4;
+    height: 125px;
+    border-radius: 10px;
+    background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/189161/content_group_58_1.png")
+      no-repeat bottom;
+  }
+  .products_textZona_popularCategories_pageAutorization {
+    grid-column: 6/7;
+    margin-left: -50px;
+  }
+  .village_textZona_popularCategories_pageAutorization {
+    grid-column: 4/5;
+    margin-left: -50px;
+  }
+  .borderBotton_village_popularCategories_pageAutorization {
+    border-bottom: 2px solid #0277bd;
+    max-width: 400px;
+    height: 1px;
+    position: relative;
+    left: 0px;
+    width: 200%;
+    top: 125px;
+  }
+  .products_popularCategories_pageAutorization {
+    grid-column: 5/6;
+    height: 125px;
+    border-radius: 10px;
+    background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/189162/content_group_58_2.png")
+      no-repeat bottom;
+  }
+  .borderBotton_products_popularCategories_pageAutorization {
+    border-bottom: 2px solid #0277bd;
+    max-width: 400px;
+    height: 1px;
+    position: relative;
+    left: 0px;
+    width: 226%;
+    top: 125px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .subtitle_pageAutorization {
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    max-width: 428px;
+    padding-top: 33px;
+    width: 100%;
+  }
+  .rascal_Fsize26 {
+    font-size: 20px;
+    max-width: 301px;
+    width: 100%;
+  }
+  .wrapper_statistic_pageAutorization {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 54px;
+    grid-row-gap: 25px;
+    margin-top: 67px;
+    max-width: 1366px;
+  }
+  .textZona_statistic_pageAutorization {
+    padding: 40px 30px 40px 19px;
+    grid-row-gap: 10px;
+  }
+  .block_statistic_pageAutorization {
+    grid-template-columns: 0.1fr 4fr;
+  }
+  .wrapper_pipe_rolling_pageAutorization {
+    grid-column-gap: 6vw;
+  }
+  .construction_popularCategories_pageAutorization {
+    grid-column: 1/3;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189159/content_group_59.png)
+      no-repeat center / 150px;
+  }
+  .textZona_construction_popularCategories_pageAutorization {
+    grid-column: 3/7;
+    margin-left: 0px;
+  }
+  .borderBotton_construction_popularCategories_pageAutorization {
+    max-width: 1130px;
+    width: 315%;
+    top: 113px;
+  }
+  .materials_textZona_popularCategories_pageAutorization {
+    grid-column: 3/7;
+  }
+  .borderBotton_materials_popularCategories_pageAutorization {
+    max-width: 1130px;
+    width: 315%;
+    top: 118px;
+  }
+  .materials_popularCategories_pageAutorization {
+    grid-column: 1/3;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189160/content_group_59_1.png)
+      no-repeat center / 150px;
+  }
+  .equipment_popularCategories_pageAutorization {
+    grid-column: 1/3;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189083/content_group_60.png)
+      no-repeat center / 150px;
+  }
+  .equipment_textZona_popularCategories_pageAutorization {
+    grid-column: 3/7;
+  }
+  .borderBotton_equipment_popularCategories_pageAutorization {
+    max-width: 1130px;
+    width: 315%;
+    top: 116px;
+  }
+  .transport_popularCategories_pageAutorization {
+    grid-column: 1/3;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189084/content_group_58.png)
+      no-repeat center / 140px;
+  }
+  .transport_textZona_popularCategories_pageAutorization {
+    grid-column: 3/7;
+    margin-left: 0px;
+  }
+  .borderBotton_transport_popularCategories_pageAutorization {
+    max-width: 1130px;
+    width: 315%;
+    top: 125px;
+  }
+  .village_popularCategories_pageAutorization {
+    grid-column: 1/3;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189161/content_group_58_1.png)
+      no-repeat center / 140px;
+  }
+  .village_textZona_popularCategories_pageAutorization {
+    grid-column: 3/7;
+    margin-left: 0px;
+  }
+  .borderBotton_village_popularCategories_pageAutorization {
+    max-width: 1130px;
+    width: 315%;
+    top: 126px;
+  }
+  .products_popularCategories_pageAutorization {
+    grid-column: 1/3;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189163/content_group_58_2.png)
+      no-repeat center / 140px;
+  }
+  .products_textZona_popularCategories_pageAutorization {
+    grid-column: 3/7;
+    margin-left: 0px;
+  }
+  .borderBotton_products_popularCategories_pageAutorization {
+    max-width: 1130px;
+    width: 315%;
+    top: 114px;
+  }
+
+  .poptlarRubrics_wrapper_popularCategories_pageAutorization {
+    flex-direction: column;
+  }
+  .button_statistic_popularCategories_pageAutorization {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-column-gap: 40px;
+    margin-top: 0px;
+  }
+
+  .blocks_rate_pageAutorization {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+  .block_rate_pageAutorization {
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.1fr 1fr;
+    grid-column-gap: 6vw;
+    align-items: center;
+  }
+  .rate_pageAutorization_collMobile {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    justify-self: baseline;
+    grid-row-gap: 24px;
+  }
+  .rate_pageAutorization_incride {
+    width: 118px;
+  }
+  .mainWrapper_pageAutorization {
+    font-size: 14px;
+  }
+  .mainWrapper_pageAutorization {
+    grid-row-gap: 100px;
+    padding-bottom: 83px;
+  }
+  .BgTop_mainWrapper_pageAutorization {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189245/content_group_44.png)
+        no-repeat 0% 10%/ 53%,
+      /* верх квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+        no-repeat 100% 84% / 100%,
+      /* низ квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+        no-repeat 30% bottom / 100%,
+      /* низ точки */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+        no-repeat 191px 0px / 105%,
+      /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center -4.7% / 1920px,
+      /* целая синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 101% / 1920px,
+      /* низ синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 101% / 1920px;
+    /* низ синяя плашка2 */
+  }
+  .heading_pageAutorization_br {
+    display: block;
+    font-size: 30px;
+    margin-top: 80px;
+  }
+  .heading_pageAutorization {
+    display: none;
+  }
+  .headingMain_popularCategories_pageAutorization {
+    font-size: 24px;
+    max-width: 463px;
+    font-family: "Russo One", sans-serif;
+    padding-bottom: 24px;
+  }
+  .button_blockAutorization_pageAutorization {
+    margin: 40px 0px 0px 0px;
+  }
+  .button_blockAutorization2_pageAutorization {
+    font-size: 14px !important;
+  }
+  .heading_rate_pageAutorization {
+    font-size: 24px;
+    max-width: 353px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .wrapper_stages_pageAutorization {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+  .heading_stages_pageAutorization {
+    display: none;
+  }
+  .heading_stages_pageAutorizationNobile {
+    font-family: "Russo One", sans-serif;
+    display: block;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #424b5e;
+    padding-bottom: px;
+    width: 88%;
+    padding-top: 0px;
+  }
+  .img_stages_pageAutorization {
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .doshed_stages_pageAutorization {
+    margin-left: 3.9vw;
+  }
+  .blocks_control_pageAutorization {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+    font-size: 14px;
+  }
+  .wrapper_blockAutorizatin2_pageAutorization {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 40px;
+    text-align: center;
+  }
+  .text_blockAutorizatin2_pageAutorization {
+    max-width: 800px;
+    justify-self: center;
+  }
+  .wrapper_futter_pageAutorization {
+    grid-template-columns: 1fr;
+    grid-row-gap: 4.5vw;
+  }
+  .wrapper_pipe_rolling_pageAutorization {
+    grid-template-columns: 1fr 1.2fr;
+  }
+  .img_pipe_rolling_pageAutorization {
+    align-self: end;
+  }
+  .heading_pageAutorization {
+    margin-top: 80px;
+  }
+  .BgTop_mainWrapper_pageAutorization {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189245/content_group_44.png)
+        no-repeat 0% 10%/ 53%,
+      /* верх квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+        no-repeat 100% 79% / 100%,
+      /* низ квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+        no-repeat 30% bottom / 100%,
+      /* низ точки */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+        no-repeat -300% 0px / 105%,
+      /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center -4.5% / 1920px,
+      /* целая синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 100% / 1920px,
+      /* низ синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 95% / 1920px;
+    /* низ синяя плашка2 */
+  }
+  .heading_pageAutorization_br {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper_pipe_rolling_pageAutorization {
+    grid-template-columns: 1fr;
+    align-items: baseline;
+  }
+  .img_statistic_pageAutorization_incrise1 {
+    width: 77%;
+  }
+  .collText_pipe_rolling_pageAutorization {
+    margin-top: 24px;
+  }
+  .img_pipe_rolling_pageAutorization {
+    align-self: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .img_stages_pageAutorization {
+    grid-template-columns: 1fr;
+    grid-row-gap: 3.5vw;
+  }
+  .img_statistic_pageAutorization_incrise {
+    width: 50%;
+  }
+  .heading_stages_pageAutorizationNobile {
+    justify-self: baseline;
+  }
+  .block_rate_pageAutorization {
+    grid-template-columns: 1fr;
+    grid-row-gap: 9px;
+  }
+  .rate_pageAutorization_collMobile {
+    text-align: center;
+  }
+  .rate_pageAutorization_collMobile {
+    justify-items: center;
+    grid-template-rows: 69px 1fr;
+    grid-row-gap: 0px;
+  }
+  .BgTop_mainWrapper_pageAutorization {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189245/content_group_44.png)
+        no-repeat 0% 9%/ 105%,
+      /* верх квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+        no-repeat 100% 81.5% / 100%,
+      /* низ квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+        no-repeat 30% bottom / 100%,
+      /* низ точки */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+        no-repeat 124px 0px / 107%,
+      /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center -4.3% / 1920px,
+      /* целая синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 100% / 1920px,
+      /* низ синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 95.5%/ 1920px;
+    /* низ синяя плашка2 */
+  }
+  .button_rate_pageAutorization {
+    white-space: normal !important;
+    font-size: 16px !important;
+  }
+  .insideButton3 {
+    max-width: 437px;
+  }
+}
+
+@media (max-width: 600px) {
+  .blocks_popularCategories_pageAutorization {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    grid-template-rows: auto;
+  }
+  .textZona_construction_popularCategories_pageAutorization {
+    align-self: center;
+    grid-column: 1/7;
+    justify-self: center;
+  }
+  .construction_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189159/content_group_59.png)
+      no-repeat center / 130px;
+  }
+  .borderBotton_construction_popularCategories_pageAutorization {
+    top: 105px;
+  }
+  .materials_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189160/content_group_59_1.png)
+      no-repeat center / 130px;
+  }
+  .borderBotton_materials_popularCategories_pageAutorization {
+    top: 108px;
+  }
+  .materials_textZona_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    align-self: center;
+    padding-top: 4px;
+    justify-self: center;
+  }
+  .equipment_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189083/content_group_60.png)
+      no-repeat center / 130px;
+  }
+  .equipment_textZona_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    align-self: center;
+    padding-top: 4px;
+    justify-self: center;
+  }
+  .borderBotton_equipment_popularCategories_pageAutorization {
+    top: 107px;
+  }
+  .transport_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189084/content_group_58.png)
+      no-repeat center / 120px;
+  }
+  .transport_textZona_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    align-self: center;
+    padding-top: 4px;
+    justify-self: center;
+    margin-top: 20px;
+  }
+  .village_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189161/content_group_58_1.png)
+      no-repeat center / 120px;
+  }
+  .village_textZona_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    align-self: center;
+    padding-top: 4px;
+    justify-self: center;
+    margin-top: 20px;
+  }
+  .products_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189163/content_group_58_2.png)
+      no-repeat center / 120px;
+  }
+  .borderBotton_products_popularCategories_pageAutorization {
+    top: 105px;
+  }
+  .products_textZona_popularCategories_pageAutorization {
+    grid-column: 1/7;
+    align-self: center;
+    padding-top: 4px;
+    justify-self: center;
+  }
+  .text_popularCategories_pageAutorization {
+    padding-top: 7px;
+    padding-bottom: 0px;
+  }
+  .subtitel_popularCategories_pageAutorization {
+    padding-bottom: 0px;
+  }
+  .borderBotton_construction_popularCategories_pageAutorization {
+    width: 100%;
+  }
+  .borderBotton_materials_popularCategories_pageAutorization {
+    width: 100%;
+  }
+  .borderBotton_equipment_popularCategories_pageAutorization {
+    width: 100%;
+  }
+  .borderBotton_transport_popularCategories_pageAutorization {
+    width: 100%;
+  }
+  .borderBotton_village_popularCategories_pageAutorization {
+    width: 100%;
+  }
+  .borderBotton_products_popularCategories_pageAutorization {
+    width: 100%;
+  }
+  .button_blockAutorization2_pageAutorization {
+    padding: 20px 30px !important;
+    font-size: 12px !important;
+  }
+  .text_control_pageAutorization3 {
+    width: 100%;
+  }
+  .block_control_pageAutorization {
+    grid-template-rows: 1fr;
+  }
+  .heading_control_pageAutorization {
+    width: 100%;
+  }
+  .heading_rate_pageAutorization {
+    width: 100%;
+  }
+  .button_blockAutorization_pageAutorization {
+    padding: 21px 42px !important;
+    font-size: 12px !important;
+  }
+  .button_pipe_rolling_pageAutorization {
+    padding: 18px 0px !important;
+    font-size: 14px !important;
+  }
+  .button_pageAutorization {
+    padding: 12px 39px !important;
+    font-size: 12px !important;
+  }
+  .insideButton {
+    max-width: 250px;
+    max-height: 48px;
+  }
+  .heading_pageAutorization {
+    font-size: 30px;
+  }
+  .BgTop_mainWrapper_pageAutorization {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189245/content_group_44.png)
+        no-repeat 0% 9%/ 105%,
+      /* верх квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+        no-repeat 100% 83% / 100%,
+      /* низ квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+        no-repeat 30% bottom / 100%,
+      /* низ точки */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+        no-repeat 50% 0px / 634px,
+      /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center -2.4% / 1920px,
+      /* целая синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 100% / 1920px,
+      /* низ синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 92%/ 1920px;
+    /* низ синяя плашка2 */
+  }
+  .heading_pageAutorization_br {
+    margin-top: 253px;
+  }
+  .logo_pageAutorization {
+    margin-top: 20px;
+  }
+  .wrapper_statistic_pageAutorization {
+    margin-top: 30px;
+  }
+  .blocks_control_pageAutorization {
+    grid-template-columns: 1fr;
+  }
+  .heading_stages_pageAutorization {
+    line-height: 24px;
+  }
+  .heading_rate_pageAutorization {
+    line-height: 24px;
+  }
+  .heading_control_pageAutorization {
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .rascal_Fsize20 {
+    font-size: 16px;
+  }
+  .BgTop_mainWrapper_pageAutorization {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189245/content_group_44.png)
+        no-repeat 0% 9%/ 105%,
+      /* верх квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+        no-repeat 100% 83.5% / 100%,
+      /* низ квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+        no-repeat 30% bottom / 100%,
+      /* низ точки */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+        no-repeat 50% 0px / 634px,
+      /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center -2.6% / 1920px,
+      /* целая синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 100% / 1920px,
+      /* низ синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 93%/ 1920px;
+    /* низ синяя плашка2 */
+  }
+  .doshed_stages_pageAutorization {
+    margin-left: 17px;
+  }
+  .headingMain_popularCategories_pageAutorization {
+    font-size: 18px;
+  }
+  .rascal_Fsize26 {
+    font-size: 18px;
+    max-width: 270px;
+    width: 100%;
+  }
+  .heading_control_pageAutorization {
+    padding-bottom: 25px;
+  }
+  .text_futter_pageAutorization {
+    grid-template-columns: 1fr;
+  }
+  .mainWrapper_pageAutorization {
+    grid-row-gap: 80px;
+    padding-bottom: 50px;
+  }
+  .mainWrapper_pageAutorization {
+    width: 81%;
+  }
+  .heading_pageAutorization_br {
+    letter-spacing: 0em;
+  }
+  .number_statistic_pageAutorization {
+    font-size: 20px;
+  }
+  .agreement_futter_pageAutorization {
+    padding-top: 14px;
+  }
+}
+
+@media (max-width: 370px) {
+  .doshed_stages_pageAutorization {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 340px) {
+  .BgTop_mainWrapper_pageAutorization {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189245/content_group_44.png)
+        no-repeat 0% 9%/ 105%,
+      /* верх квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/188659/content_group_52.png)
+        no-repeat 100% 83.5% / 100%,
+      /* низ квадратики */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189244/content_group_43.png)
+        no-repeat 30% bottom / 100%,
+      /* низ точки */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189154/content_group_51.png)
+        no-repeat 50% 0px / 455px,
+      /* правый верхний угол */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center -3.4% / 1920px,
+      /* целая синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 100% / 1920px,
+      /* низ синяя плашка */
+        url(https://www.pulscen.ru/system/ckeditor_assets/pictures/189242/content_vector_1_1.png)
+        no-repeat center 93.5% / 1920px;
+    /* низ синяя плашка2 */
+  }
+  .heading_pageAutorization_br {
+    margin-top: 184px;
+    font-size: 9vw;
+  }
+  .logoImg_pageAutorization {
+    width: 80px;
+  }
+  .logo_pageAutorization {
+    margin-top: 13px;
+  }
+  .textZona_statistic_pageAutorization {
+    padding: 17px 10px 20px 12px;
+    display: grid;
+    grid-template-rows: 28px 1fr;
+  }
+  .mainWrapper_pageAutorization {
+    grid-row-gap: 60px;
+  }
+  .doshed_stages_pageAutorization {
+    min-height: 440px;
+  }
+  .width_blockBatton {
+    height: 24.5vh;
+  }
+}
+
+.tolbar_for_articls_wrapper {
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  grid-gap: 20px;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  max-width: 1366px;
+  margin: auto;
+  width: 90%;
+}

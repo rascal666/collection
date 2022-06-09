@@ -1,0 +1,97 @@
+doctype html
+
+mixin list(photo, name, star, branch, city, linkCompany, nameCompany, text )
+	.TK_Ural.review
+		.imgr
+			img.review__img(src=photo)
+		.review__wrapper
+			.review__header
+				div
+					p.heading=name
+					p=star
+				div.review__note
+					p.note=branch
+					p.note=city
+			.review__text
+				a.link(href=linkCompany)=nameCompany
+				p.text=text
+
+html(lang="en")
+	head
+		title= pageTitle
+		style
+			include style.css
+	body
+		- var dataTTr = require('./baseData.json')
+
+
+	each dataItem in dataTTr.perm
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.ufa
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.chel
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.novosibirsk
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.ekb
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.miass
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.msk
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.krasnoyarsk
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.kazan
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.minsk
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.rostov
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.piter
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.chelny
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.krasnodar
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.omsk    
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.tagil
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.volgorod
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.novgorod
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.kz
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.voronezh
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.belgorod
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+	each dataItem in dataTTr.bataisk
+		+list(dataItem.pfoto, dataItem.name, dataItem.star, dataItem.branch, dataItem.city, dataItem.linkCompany,dataItem.nameCompany, dataItem.text )
+
+
+
+
+

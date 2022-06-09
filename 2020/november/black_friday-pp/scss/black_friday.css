@@ -1,0 +1,541 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  height: auto;
+}
+
+.modal-p {
+  display: none;
+}
+
+.modal-close:hover {
+  cursor: pointer;
+}
+
+.activ {
+  display: block;
+}
+
+.modal-p {
+  background: #171614c9;
+  position: absolute;
+  z-index: 999;
+}
+
+.modal-close {
+  right: 15px;
+  top: 5px;
+  position: absolute;
+}
+
+.pop {
+  background: white;
+  padding: 40px;
+  color: #212020;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.more:hover {
+  cursor: pointer;
+}
+
+.feedback-modil {
+  display: none;
+}
+
+.modal-wrapper .modal-title {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.modal-wrapper .modal-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.modal-wrapper .noincrease {
+  font-size: 20px;
+}
+
+.modal-wrapper .pbottom {
+  padding-bottom: 20px;
+}
+
+.main-content {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("https://www.pulscen.ru/system/ckeditor_assets/pictures/219064/content_ellipse_22.png") no-repeat 0% 0%, url("https://www.pulscen.ru/system/ckeditor_assets/pictures/219085/content_chernaya_pyatnitsa.png") no-repeat 100% 35%/65% fixed, url("https://www.pulscen.ru/system/ckeditor_assets/pictures/219086/content_img-0178.png");
+}
+
+.section-content {
+  max-width: 1500px;
+  width: 92%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.heading_Button {
+  width: auto;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 20px;
+  letter-spacing: 0em;
+}
+
+.toolbar1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolbar1 .toolbar1 .logo {
+  width: 182px;
+}
+
+.toolbar1 .feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toolbar1 .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toolbar1 .item img {
+  margin-right: 20px;
+}
+
+.toolbar1 .item_padding {
+  padding: 0 40px;
+}
+
+.heading_Button_white {
+  padding: 10px 20px;
+  background: #f0f8ff00;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+}
+
+.heading_Button_white a {
+  color: #ffffff !important;
+}
+
+.header {
+  padding-top: 70px;
+  padding-bottom: 80px;
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header .text {
+  font-size: 66px;
+  letter-spacing: 0.04em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 1067px;
+  width: 100%;
+  position: relative;
+}
+
+.header .text .text__shine {
+  color: #aad7ff30;
+  background: url(https://e7.pngegg.com/pngimages/704/774/png-clipart-diamond-silver-sequins-glitter-material.png) repeat-x 100% 100%/contain;
+  -webkit-background-clip: text;
+  -webkit-animation: fire 3s linear infinite;
+          animation: fire 3s linear infinite;
+}
+
+.header .text .text__circuit {
+  color: #cae2f700;
+  -webkit-text-stroke: 1px white;
+  display: block;
+}
+
+.header .text::after {
+  content: "";
+  position: absolute;
+  border-bottom: 4px solid #2196f3;
+  width: 54%;
+  bottom: 18px;
+  right: 0;
+}
+
+.header .sale {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #2196f3;
+  padding-bottom: 15px;
+}
+
+.header .sale .sale__three {
+  font-size: 109px;
+}
+
+.header .sale .percent {
+  font-size: 50px;
+}
+
+.header .note {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-bottom: 36px;
+  letter-spacing: 0.04em;
+  min-width: 318px;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.package {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 8%;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.package .item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr 0.5fr 0.5fr 0.5fr;
+      grid-template-rows: auto 1fr 0.5fr 0.5fr 0.5fr;
+}
+
+.package .item .item__subtitle {
+  font-size: 26px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.package .item .item__decrease {
+  font-size: 20px;
+}
+
+.package .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.package .more .more__text {
+  margin-left: 20px;
+  opacity: 0.5;
+}
+
+.section-note {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 60px;
+}
+
+.section-noteP {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+@-webkit-keyframes fire {
+  0% {
+    background-position: left 0 bottom 10px;
+  }
+  50% {
+    background-position: left 10% bottom 5px;
+  }
+  100% {
+    background-position: left 0% bottom 10px;
+  }
+}
+
+@keyframes fire {
+  0% {
+    background-position: left 0 bottom 10px;
+  }
+  50% {
+    background-position: left 10% bottom 5px;
+  }
+  100% {
+    background-position: left 0% bottom 10px;
+  }
+}
+
+@media (max-width: 1680px) {
+  .heading_Button {
+    font-size: 16px;
+  }
+  .header .text {
+    font-size: 54px;
+  }
+  .header .sale .sale__three {
+    font-size: 99px;
+  }
+  .header .sale .percent {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section-content {
+    padding: 20px 0;
+  }
+  .heading_Button {
+    margin-top: 30px;
+  }
+  .toolbar1 .logo {
+    width: 10%;
+  }
+  .header {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .header .sale .sale__three {
+    font-size: 70px;
+  }
+  .header .sale .percent {
+    font-size: 30px;
+  }
+  .header .text {
+    font-size: 44px;
+  }
+  .package {
+    grid-column-gap: 4%;
+  }
+  .package .item__img {
+    width: 40px;
+    height: 40px;
+  }
+  .package .item {
+    -ms-grid-rows: auto 1fr 0.8fr 0.5fr 1fr;
+        grid-template-rows: auto 1fr 0.8fr 0.5fr 1fr;
+  }
+  .package .item .item__subtitle {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .section-note {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .text::after {
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid #2196f3;
+    width: 42%;
+    bottom: 18px;
+    right: 0;
+  }
+  .package .item {
+    -ms-grid-rows: auto 1.1fr 0.8fr 0.5fr 1fr;
+        grid-template-rows: auto 1.1fr 0.8fr 0.5fr 1fr;
+  }
+  .package .item .text {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+  .package .item .more {
+    font-size: 14px;
+  }
+  .heading_Button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .heading_Button_white {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+  .main-content {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219064/content_ellipse_22.png) no-repeat 0% 0%, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219219/content_rectangle_7.png) no-repeat 100% 50%/44px, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219086/content_img-0178.png);
+  }
+  .heading_Button {
+    max-width: 427px;
+  }
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 10vw;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .note {
+    margin-left: 0px;
+  }
+  .header .text::after {
+    content: "";
+    display: none;
+  }
+  .header .sale {
+    padding-top: 10px;
+  }
+  .header .sale .sale__three {
+    font-size: 10vw;
+  }
+  .header .note {
+    min-width: inherit;
+  }
+  .toolbar1 .logo {
+    width: 120px;
+  }
+  .toolbar1 .desc {
+    display: none;
+  }
+  .package {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+  .package .item {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
+  .package .item .text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .package .item .more {
+    font-size: 14px;
+  }
+  .pop {
+    padding: 20px;
+    max-height: 300px;
+    overflow: scroll;
+    width: 80%;
+  }
+  .modal-wrapper .modal-title {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .modal-wrapper .noincrease {
+    font-size: 16px;
+  }
+  .modal-wrapper .text {
+    font-size: 14px;
+  }
+  .modal-wrapper .pbottom {
+    font-size: 15px;
+  }
+  .section-note {
+    margin-bottom: 40px;
+  }
+  .feedback-modil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feedback-modil .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feedback-modil .item img {
+    margin-right: 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .feedback-modil .item_padding {
+    margin-top: 20px;
+  }
+  .section-content {
+    padding: 20px 0 80px;
+  }
+  .section-noteP {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 660px) {
+  .main-content {
+    background: url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219064/content_ellipse_22.png) no-repeat 0% 0%, url(https://www.pulscen.ru/system/ckeditor_assets/pictures/219086/content_img-0178.png);
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}

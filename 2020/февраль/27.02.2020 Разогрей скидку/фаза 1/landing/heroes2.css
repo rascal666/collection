@@ -1,0 +1,1033 @@
+/* Сброс врапперов */
+
+body {
+  min-width: 0 !important;
+  background-color: white;
+}
+
+.base-width {
+  background-color: transparent;
+  margin: 0;
+  max-width: none;
+  min-width: 0;
+}
+
+.catalogue {
+  padding: 0;
+}
+
+.cms-page .col-middle {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0 !important;
+}
+
+.catalogue h1 {
+  display: none;
+}
+
+#content {
+  margin-top: 0;
+}
+
+.wrapper-text ul li {
+  list-style-type: none !important;
+}
+
+.wrapper-text table td {
+  padding: 20px;
+}
+
+.simple-breadcrumbs {
+  display: none !important;
+}
+/* --- */
+
+* {padding: 0; margin: 0}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* background-image: url(https://static.tildacdn.com/tild3065-6334-4137-a336-393734663831/ricardo-gomez-angel-.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow-x: hidden; */
+  /* background: url('https://static.tildacdn.com/tild3065-6334-4137-a336-393734663831/ricardo-gomez-angel-.png');
+
+background-repeat: no-repeat; */
+
+
+}
+
+
+
+/* мой код */
+
+
+.bodyMain{
+  background: url('https://static.tildacdn.com/tild3065-6334-4137-a336-393734663831/ricardo-gomez-angel-.png');
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+      background-size: cover;
+
+  /* background: url('https://static.tildacdn.com/tild3065-6334-4137-a336-393734663831/ricardo-gomez-angel-.png')
+  no-repeat fixed center / cover; */
+      padding: 100px 40px 200px 0px;
+
+              grid-template-columns: 1fr .3fr;
+              grid-gap: 40px;
+}
+
+
+.grid{
+  display: grid;
+}
+
+
+.white{
+  color: #FFFFFF;
+}
+
+.black{
+  color: #000000;
+}
+
+.my_container-button {
+  max-width: 226px;
+  padding: 15px 50px !important;
+  font-size: 16px !important;
+  line-height: 22px;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: #424B5E !important;
+  background: #FFFFFF!important;
+  border: 1px solid #FFFFFF !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  cursor: pointer !important;
+  -webkit-transition: background-color .2s,color .2s;
+  transition: background-color .2s,color .2s;
+  text-decoration: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: grid;
+  font-weight: 600;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.width{
+  max-width: 64%;
+}
+
+.line{
+  border-bottom: 10px solid rgba(255, 255, 255, 0.19);
+}
+
+.subtitle{
+  font-weight: 600;
+  font-size: 20px;
+line-height: 30px;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+
+}
+
+.heading{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.link{
+  text-decoration: none!important;
+  font-size: 13px;
+  color: #8695AC!important;
+}
+
+.link:hover{
+  color: #39598a!important;
+}
+
+.leftLine{
+  margin-left: -55px;
+}
+/* ----------------------------------block-percent15------------------------------- */
+
+.percent15Coll{
+    grid-template-columns: .25fr 1fr;
+  padding: 60px;
+}
+
+
+.rel{
+  position: relative;
+  z-index: 2;
+  grid-gap: 40px;
+  align-items: center;
+}
+
+
+
+
+.percent15:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(255, 112, 67, 0.95) 0%, rgba(234, 87, 87, 0.85) 38.54%, rgba(234, 87, 87, 0.75) 80.31%, rgba(234, 87, 87, 0.75) 100%);
+      border-radius: 5px;
+}
+
+.b{
+  background: inherit;
+}
+
+.percent15{
+  max-width: 1336px;
+  background: inherit;
+  position: relative;
+  border-radius: 5px;
+}
+
+.percent15:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: inherit;
+  filter: blur(5px);
+}
+
+.my_container-button-15{
+    max-width: 226px;
+    padding: 15px !important;
+    font-size: 16px !important;
+    line-height: 22px;
+    font-style: normal !important;
+    white-space: nowrap !important;
+    color: #424B5E !important;
+    background: #FFFFFF!important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 3px !important;
+    outline: 0 !important;
+    cursor: pointer !important;
+    -webkit-transition: background-color .2s,color .2s;
+    transition: background-color .2s,color .2s;
+    text-decoration: none !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: grid;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+}
+
+
+
+/* ----------------------------------block-percent20------------------------------- */
+
+
+.percent20{
+  max-width: 1336px;
+  background: inherit;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+.percent20:before{
+  content: '';
+  filter: blur(10px);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: inherit;
+}
+
+.percent20:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(270.33deg, #FFFFFF 0.16%, rgba(255, 255, 255, 0.8) 152.9%);
+      border-radius: 5px;
+}
+
+
+/* text */
+.haeding20{
+font-weight: 800;
+    font-size: 34px;
+/* line-height: 46px; */
+letter-spacing: 0.12em;
+color: #EA5757;
+}
+
+.subtitle20{
+  font-size: 20px;
+  /* line-height: 27px; */
+  letter-spacing: 0.16em;
+  color: #424B5E;
+}
+
+.text{
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.16em;
+color: #8695AC;
+}
+
+.who{
+      grid-gap: 10px;
+}
+
+.numwho{
+      font-size: 40px;
+}
+
+.whoColl {
+    display: grid;
+    grid-gap: 20px;
+}
+.textWhite{
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.16em;
+color: #FFFFFF;
+}
+
+.explanation{
+  grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+}
+
+.coll20{
+      grid-template-columns: .1fr 1fr;
+          grid-gap: 20px;
+}
+
+.percent20Coll{
+      grid-template-columns: .25fr 1fr;
+      padding: 60px;
+}
+
+.my_container-button-20 {
+  max-width: 226px;
+  padding: 15px !important;
+  font-size: 16px !important;
+  line-height: 22px;
+  font-style: normal !important;
+  white-space: nowrap !important;
+  color: #FFFFFF !important;
+background: rgba(234, 87, 87, 0.9)!important;
+  border: 1px solid rgba(234, 87, 87, 0.9) !important;
+  border-radius: 3px !important;
+  outline: 0 !important;
+  cursor: pointer !important;
+  -webkit-transition: background-color .2s,color .2s;
+  transition: background-color .2s,color .2s;
+  text-decoration: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: grid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
+
+
+
+/* ----------------------------------block-percent30------------------------------- */
+
+.percent30Main{
+      grid-template-columns: 1fr .4fr;
+          max-width: 1336px;
+}
+
+
+
+.percent30Rigth{
+  padding: 60px 40px 60px 40px;
+  background: #FFFFFF;
+  position: relative;
+border-radius: 0px 5px 5px 0px;
+}
+
+.percent30:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: inherit;
+  filter: blur(5px);
+}
+
+
+.percent30:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ea5757;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.percent30 {
+    background: inherit;
+    position: relative;
+    border-radius: 5px;
+    padding: 60px 40px 60px 0px;
+    grid-template-columns: .5fr 1fr;
+}
+
+.percent30Main{
+
+}
+
+.who{
+  display: none;
+}
+/* text */
+
+.note{
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.16em;
+color: #FFFFFF;
+}
+
+.num{
+
+font-weight: 800;
+font-size: 90px;
+line-height: 123px;
+letter-spacing: -0.02em;
+/* font-feature-settings: 'pnum' on, 'onum' on; */
+
+color: #EA5757;
+}
+
+.heading30 {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+}
+
+.pop{
+      margin-top: -30px;
+}
+
+
+
+/* ----------------------------------curve------------------------------- */
+
+.curveMain{
+  width: 150%;
+  height: 380px;
+}
+
+.vector_1{
+  margin-top: -38px;
+  position: relative;
+}
+
+.vector_2{
+  margin-top: -150px;
+}
+
+.curve{
+  justify-items: end;
+  position: relative;
+}
+
+.vector_4{
+  margin-top: -40px;
+}
+
+/* ----------------------------------block-percent30------------------------------- */
+
+.basementColl{
+  grid-template-columns: 2.5fr 2fr;
+padding: 40px;
+justify-items: center;
+}
+
+.contact{
+      grid-template-columns: .03fr 1fr;
+      grid-gap: 20px;
+}
+
+.contactRow{
+      grid-gap: 20px;
+}
+
+.colMe{
+  border-bottom: 1px dashed #8695AC;;
+}
+
+
+
+.colMeT{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.16em;
+  color: #8695AC;
+      cursor: pointer;
+}
+
+.colMeT:hover{
+          color: #6e7b8e;
+}
+
+.textBasement{
+
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.03em;
+
+color: #8695AC;
+}
+
+.map{
+      margin-left: 126px;
+}
+
+
+/* ----------------------------------thermometer------------------------------- */
+.block{
+  position: fixed;
+width: 160px;
+  background: inherit;
+      padding: 10px;
+          animation-duration: 9s;
+}
+
+.block:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: inherit;
+  filter: blur(5px);
+}
+
+.block::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.widthThermometerBlock{
+  display: grid;
+justify-items: center;
+}
+
+.textThermometer{
+
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+letter-spacing: 0.12em;
+color: #5E7491;
+    margin-left: 9px;
+}
+
+.widthThermometer{
+    width: 160px;
+}
+
+.relThermometer{
+justify-items: center;
+position: relative;
+z-index: 1;
+}
+
+
+.scrollThermometer {
+    width: 39px;
+    position: absolute;
+    bottom: 131px;
+    background: #eb5656;
+    margin-left: 60.5px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.scrollThermometerFull {
+    width: 26px;
+    position: absolute;
+    bottom: 92px;
+    background: #eb5656;
+    margin-left: 60px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.num30 {
+    display: none;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 123px;
+    letter-spacing: -0.02em;
+    /* font-feature-settings: 'pnum' on, 'onum' on; */
+    color: #EA5757;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+
+.widthThermometer30 {
+    width: 34px;
+}
+.num15 {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 123px;
+    letter-spacing: -0.02em;
+    /* font-feature-settings: 'pnum' on, 'onum' on; */
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: #EA5757;
+    display: none;
+    grid-gap: 10px;
+}
+
+.imgs{
+      width: 50px;
+}
+
+
+.bodyMain1 {
+    padding: 280px 40px 40px 0px;
+}
+
+.block1{
+  display: none;
+}
+
+.scrollThermometer1 {
+    width: 36px;
+    position: relative;
+    bottom: 55.3px;
+    background: #eb5656;
+margin-left: 69px;
+    height: 19.9px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.relThermometer{
+  grid-template-columns: 1fr 1fr;
+}
+
+.relThermometer30{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.textThermometer1{
+    display: grid;
+    align-items: center;
+    animation-name: my-animation;
+    animation-duration: 1s;
+}
+.ThermometerColl{
+  background: white;
+}
+
+.relThermometerRidth{
+  position: relative;
+    z-index: 3;
+}
+
+.margin{
+      margin-left: -30px;
+}
+
+@media (min-width:1600px) {
+.bodyMain {
+    padding: 100px 110px 200px 0px;
+}
+}
+
+@media (max-width:1600px) {
+  .heading30 {
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 45px;
+      letter-spacing: 0.16em;
+      color: #FFFFFF;
+  }
+
+  .subtitle {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+}
+
+.subtitle20 {
+    font-size: 17px;
+}
+}
+
+
+
+@media (max-width:1400px) {
+
+  .explanation {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+  .basementColl {
+      grid-template-columns: 2.5fr 2fr;
+      padding: 40px;
+      justify-items: baseline;
+  }
+  .map {
+    margin-left: 0px;
+}
+
+  .curveMain{
+    height: 200px;
+  }
+
+  .bodyMain {
+    padding: 0px 40px 0px 0px;
+}
+  .body {
+      margin: 176px 0px 40px 0px;
+  }
+  .heading {
+    font-size: 30px;
+}
+
+  .subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+}
+
+.subtitle20 {
+    font-size: 17px;
+}
+
+.percent15Coll {
+  grid-template-columns: 1fr;
+}
+
+.percent20Coll {
+  grid-template-columns: 1fr;
+
+}
+
+.percent30 {
+  grid-template-columns: 1fr;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.percent30Rigth{
+  display: none;
+}
+.who{
+  display: grid;
+}
+
+.percent30Main {
+  grid-template-columns: 1fr;
+
+}
+.percent30 {
+
+    padding: 60px 40px 60px 60px;
+
+}
+}
+
+
+@media (max-width:1060px) {
+
+
+
+
+.widthThermometer {
+  width: 190px;
+    margin-top: 15px;
+}
+
+
+
+
+
+.relThermometer {
+    justify-items: center;
+    position: relative;
+    z-index: 3;
+    grid-template-columns: .35fr .7fr;
+grid-gap: 31px;
+        align-items: center;
+        justify-items: baseline;
+        height: 136px;
+}
+.block {
+    position: fixed;
+    width: width: 100%;
+    background: inherit;
+    padding: 20px;
+}
+
+
+
+.num15 {
+    font-weight: 800;
+    font-size: 59px;
+    line-height: 123px;
+    letter-spacing: -0.02em;
+    /* font-feature-settings: 'pnum' on, 'onum' on; */
+    color: #EA5757;
+}
+
+.widthThermometer30{
+
+}
+
+.block{
+  position: fixed;
+  width: 207px;
+  background: inherit;
+      padding: 20px;
+}
+
+
+
+
+.block1 {
+    position: fixed;
+    width: 100%;
+    background: inherit;
+    z-index: 3;
+    background: #FFFFFF;
+    display: block;
+        padding: 0px 20px 0px 40px;
+}
+
+.block{
+  display: none;
+}
+
+.bodyMain {
+  grid-template-columns: 1fr ;
+      width: 100%;
+}
+
+
+@media (max-width:900px) {
+
+  .my_container-button {
+    max-width: 226px;
+    padding: 15px 35px !important;
+    font-size: 16px !important;
+    line-height: 22px;
+    font-style: normal !important;
+    white-space: nowrap !important;
+    color: #424B5E !important;
+    background: #FFFFFF!important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 3px !important;
+    outline: 0 !important;
+    cursor: pointer !important;
+    -webkit-transition: background-color .2s,color .2s;
+    transition: background-color .2s,color .2s;
+    text-decoration: none !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: grid;
+}
+  .basementColl {
+      grid-template-columns: 1fr;
+      grid-gap: 40px;
+  }
+
+
+
+.rel {
+    grid-gap: 30px;
+}
+}
+
+@media (max-width:680px) {
+
+  .bodyMain {
+      padding: 0px 0px  0px 0px;
+  }
+
+
+  .heading {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.subtitle {
+    font-size: 16px;
+}
+
+.textThermometer {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.12em;
+    color: #5E7491;
+}
+.percent20Coll {
+    grid-template-columns:1fr;
+}
+
+
+
+.widthThermometer {
+    width: 190px;
+}
+
+.scrollThermometer1 {
+    width: 36px;
+    position: relative;
+    bottom: 56px;
+    background: #eb5656;
+    margin-left: 71px;
+    height: 20.5px;
+}
+
+.haeding20 {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.subtitle20 {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.16em;
+    color: #424B5E;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.my_container-button {
+  font-size: 14px!important;
+}
+
+.my_container-button-20 {
+  font-size: 14px!important;
+}
+
+.my_container-button-30 {
+  font-size: 14px!important;
+      padding: 15px !important;
+}
+
+.explanation {
+    grid-template-columns: 1fr;
+
+}
+
+.textBasement {
+    font-size: 14px;
+}
+
+.colMeT {
+    font-size: 14px;
+}
+
+.link {
+    font-size: 11px;
+}
+
+
+}
+
+
+@media (max-width:400px) {
+  .heading {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+
+
+
+.haeding20 {
+
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+.subtitle20 {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.percent30Main {
+    grid-template-columns: 1fr;
+}
+
+
+
+
+.my_container-button {
+
+    padding: 15px 12px !important;
+
+}
+
+
+.basementColl {
+  margin-top: 0px;
+
+}
+
+
+}
+
+
+@keyframes my-animation {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
